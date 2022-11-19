@@ -20,10 +20,13 @@ def get_feed():
     latitude = "48.137154" 
     longitude = "11.576124"
     attractionList = get_attractions(latitude=latitude, longitude=longitude)
-    #fetchChargingStation(attractionList[])
+    attractionList = fetchChargingStation(attractionList[2]["AttractionLocationLat"],attractionList[2]["AttractionLocationLng"],)
     attractionList = getWalkTime(attractionList)
 
     return jsonify(attractionList)
+
+
+    return c
 
 
 def fetchChargingStation(latitude: float, longitude: float):
@@ -33,18 +36,17 @@ def fetchChargingStation(latitude: float, longitude: float):
     data = requests.get(f, params = params)
     a = data.text
     jsonData = json.loads(a)
+    closeLocations = {}
     for i in jsonData:
         try:
             #print(i)
-            print(i["AddressInfo"]["StateOrProvince"])
-            print(i["AddressInfo"]["Title"])
-            print(i["AddressInfo"]["AddressLine1"])
-            print(i["AddressInfo"]["Town"])
-            print(i["AddressInfo"]["Postcode"])
-            print(i["AddressInfo"]["StateOrProvince"], "\n")
+            closeLocations[i["AddressInfo"]["Title"]] = (i["AddressInfo"]["Latitude"],i["AddressInfo"]["Longitude"])
+            print(i["AddressInfo"]["Latitude"])
+            print(i["AddressInfo"]["Longitude"])
         except Exception:
             pass
-
+    
+    return closeLocations
 
 """
 @app.route("/dataPara", methods=['POST']) # http://127.0.0.1:5000/dataPara?name=asdfg&time=1345
