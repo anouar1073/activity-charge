@@ -9,7 +9,6 @@ import {
 } from "react-native";
 import MapView, { Marker } from "react-native-maps";
 
-import colors from "./constants";
 import ListItem from "./ListItem";
 import AppText from "./AppText.js";
 

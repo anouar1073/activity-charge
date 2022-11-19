@@ -1,11 +1,9 @@
 import { Platform } from "react-native";
 
-import colors from "./constants.js";
 
 export default {
-  colors,
   text: {
-    color: colors.dark,
+    color: "red",
     fontSize: 18,
     fontFamily: Platform.OS === "android" ? "Roboto" : "Avenir",
   },

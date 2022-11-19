@@ -23,8 +23,6 @@ def get_attractions(latitude: int, longitude: int):
     #with open('backend/attractions.json', 'w') as f:
     #    json.dump(responseDict, f, indent=4)
     
-    #print(responseDict)
-    
     attractionList = []
     for dict in responseDict["results"]:
         attraction = {
@@ -33,7 +31,8 @@ def get_attractions(latitude: int, longitude: int):
             "AttractionLocationLng": dict["geometry"]["location"]["lng"],
             "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
             "ChargerLocationLat": "10.000000",
-            "ChargerLocationLng": "10.000000"
+            "ChargerLocationLng": "10.000000",
+            "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=" + dict["photos"][0]["photo_reference"] + "&key=" + apiKey
             
             # attractionImageURL
             # proposedCharingTime

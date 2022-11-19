@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 import requests
 import json
 
@@ -9,22 +9,24 @@ app = Flask(__name__)
 
 # !!! Flask run im APP.py VERZEICHNIS AUSFÜHREN!!!!
 
-@app.route('/')
-def get_feed():
+@app.route("/", methods=['GET']) # http://127.0.0.1:5000/?lat=48.137154&lng=11.576124
+def postDataPara():
 
+    ### How it Works: 
     # 1. Get Location --> Get attractions 
     # 2. Get Chargers next to attraction
     # 3. Check if Charger is < 5 Min form attraction
     # 4. return feed
 
-    latitude = "48.137154" 
-    longitude = "11.576124"
-    attractionList = get_attractions(latitude=latitude, longitude=longitude)
-    chargingDict = fetchChargingStation(attractionList[2]["AttractionLocationLat"],attractionList[2]["AttractionLocationLng"],)
-    #print(chargingDict)
-    attractionList = getWalkTime(attractionList, chargingDict)
+    latitude = request.args.get('lat', default="48.137154")
+    longitude = request.args.get('lng', default="11.576124")
 
-    return attractionList
+    attractionList = get_attractions(latitude=latitude, longitude=longitude)
+
+    #attractionList = fetchChargingStation(attractionList[2]["AttractionLocationLat"],attractionList[2]["AttractionLocationLng"],)
+    attractionList = getWalkTime(attractionList)
+
+    return jsonify(attractionList)
 
 
 def fetchChargingStation(latitude: float, longitude: float):
@@ -39,6 +41,9 @@ def fetchChargingStation(latitude: float, longitude: float):
         try:
             #print(i)
             closeLocations[i["AddressInfo"]["Title"]] = (i["AddressInfo"]["Latitude"],i["AddressInfo"]["Longitude"])
+            #print(i["AddressInfo"]["Latitude"])
+            #print(i["AddressInfo"]["Longitude"])
+
         except Exception:
             pass
     
