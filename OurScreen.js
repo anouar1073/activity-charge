@@ -9,8 +9,6 @@ import {
   RefreshControl,
 } from "react-native";
 import { TouchableWithoutFeedback } from "react-native-gesture-handler";
-import { PermissionsAndroid } from "react-native";
-const { withAndroidManifest } = require("@expo/config-plugins");
 
 import colors from "./constants.js";
 import routes from "./routes.js";
