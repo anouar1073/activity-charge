@@ -45,21 +45,32 @@ def get_attractions(latitude: int, longitude: int):
     return attractionList
 
 
-def getWalkTime(attractionList: list):
-    for attraction in attractionList:
-        apiKey = "AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U"
+def getWalkTime(attractionList: list, chargingDict: dict):
+    maxWalkTime = 1000
+    for k,v in chargingDict.items():
+        final = []
+        for idx,attraction in enumerate(attractionList):
+            print(v[0],v[1])
 
-        origin = str(attraction["AttractionLocationLat"]) + "%2C" + str(attraction["AttractionLocationLng"])
-        dest = str(attraction["ChargerLocationLat"])  + "%2C" + str(attraction["ChargerLocationLng"])
+            attraction["ChargerLocationLat"] = v[0]
+            attraction["ChargerLocationLng"] = v[1]
+            apiKey = "AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U"
 
-        url = "https://maps.googleapis.com/maps/api/directions/json?origin="+ origin +"&destination="+ dest +"&key=" + apiKey + "&mode=walking"
+            origin = str(attraction["AttractionLocationLat"]) + "%2C" + str(attraction["AttractionLocationLng"])
+            dest = str(v[0])  + "%2C" + str(v[1])
 
-        payload={}
-        headers = {}
-        response = requests.request("GET", url, headers=headers, data=payload)
-        responseDict = json.loads(response.text)
+            url = "https://maps.googleapis.com/maps/api/directions/json?origin="+ origin +"&destination="+ dest +"&key=" + apiKey + "&mode=walking"
 
-        attraction["WalkTimeSeconds"] = str(responseDict["routes"][0]["legs"][0]["duration"]["value"])
+            payload={}
+            headers = {}
+            response = requests.request("GET", url, headers=headers, data=payload)
+            responseDict = json.loads(response.text)
+            walkTime = int(responseDict["routes"][0]["legs"][0]["duration"]["value"])
+            #print(walkTime)
+            if(maxWalkTime > walkTime ):
+                attraction["WalkTimeSeconds"] = str(responseDict["routes"][0]["legs"][0]["duration"]["value"])
+            else:
+                attractionList.remove(attraction)
     
     return attractionList
 
