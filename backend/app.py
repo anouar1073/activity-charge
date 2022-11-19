@@ -1,30 +1,57 @@
 from flask import Flask
+import requests
+import json
+
+from GoogleAPI import CalculateDistanceAndDrop, get_attractions
+
 app = Flask(__name__)
 
 # Flask run
 
-class FeedEntry(): 
-    def __init__(self, attractionName: str, attractionLocation: tuple, attractionDescription: str, chargerLocation: tuple):
-        self.attractionName = attractionName
-        self.attractionLocation = attractionLocation
-        self.attractionDescription = attractionDescription
-        self.chargerLocation = chargerLocation
-
-        # attractionImageURL
-        # proposedCharingTime
-        # chargePercentAfterCharing
-        # moneySavedFromDoNotGetPenalty  
-
-
 @app.route('/')
-def get_feed(latitude: int, longitude: int):
+def get_feed():
 
     # 1. Get Location --> Get attractions 
     # 2. Get Chargers next to attraction
     # 3. Check if Charger is < 5 Min form attraction
     # 4. return feed
 
-    return '<h1>Hello from Flask & Docker</h2>'
+    latitude = "48.137154" 
+    longitude = "11.576124"
+    attractionList = get_attractions(latitude=latitude, longitude=longitude)
+    c = fetchChargingStation(attractionList[2]["AttractionLocationLat"],attractionList[2]["AttractionLocationLng"],)
+    #attractionList = CalculateDistanceAndDrop(attractionList)
+
+    return c
+
+
+def fetchChargingStation(latitude: float, longitude: float):
+    params = {"latitude": 48.252954, "longitude": 11.656477, "countrycode": "DE", 
+    "output": "json", "compact": True, "verbose": False, "maxresults": 20, "key": "38178c7e-c375-4b54-9a18-a82f088b03e3"}
+    f = r'https://api.openchargemap.io/v3/poi/?'
+    data = requests.get(f, params = params)
+    a = data.text
+    jsonData = json.loads(a)
+    closeLocations = {}
+    for i in jsonData:
+        try:
+            #print(i)
+            closeLocations[i["AddressInfo"]["Title"]] = (i["AddressInfo"]["Latitude"],i["AddressInfo"]["Longitude"])
+            print(i["AddressInfo"]["Latitude"])
+            print(i["AddressInfo"]["Longitude"])
+        except Exception:
+            pass
+    
+    return closeLocations
+
+"""
+@app.route("/dataPara", methods=['POST']) # http://127.0.0.1:5000/dataPara?name=asdfg&time=1345
+def postDataPara():
+    # request.args liefert: The parsed URL parameters (the part in the URL after the question mark).
+    name = request.args.get('name')
+    time = request.args.get('address')
+"""
+
 
 
 if __name__ == "__main__":
