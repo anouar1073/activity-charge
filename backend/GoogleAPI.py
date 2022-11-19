@@ -31,9 +31,9 @@ def get_attractions(latitude: int, longitude: int):
             "AttractionName": dict["name"],
             "AttractionLocationLat": dict["geometry"]["location"]["lat"],
             "AttractionLocationLng": dict["geometry"]["location"]["lng"],
-            "AttractionDescription": "Ein super Ort zum Laden und spaß haben, hihi!!",
-            "ChargerLocationLat": "None",
-            "ChargerLocationLng": "None"
+            "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
+            "ChargerLocationLat": "10.000000",
+            "ChargerLocationLng": "10.000000"
             
             # attractionImageURL
             # proposedCharingTime
@@ -42,12 +42,26 @@ def get_attractions(latitude: int, longitude: int):
         }
         attractionList.append(attraction)
 
-    print(attractionList)
     return attractionList
 
 
-def CalculateDistanceAndDrop(attractionList: list):
-    pass
+def getWalkTime(attractionList: list):
+    for attraction in attractionList:
+        apiKey = "AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U"
+
+        origin = str(attraction["AttractionLocationLat"]) + "%2C" + str(attraction["AttractionLocationLng"])
+        dest = str(attraction["ChargerLocationLat"])  + "%2C" + str(attraction["ChargerLocationLng"])
+
+        url = "https://maps.googleapis.com/maps/api/directions/json?origin="+ origin +"&destination="+ dest +"&key=" + apiKey + "&mode=walking"
+
+        payload={}
+        headers = {}
+        response = requests.request("GET", url, headers=headers, data=payload)
+        responseDict = json.loads(response.text)
+
+        attraction["WalkTimeSeconds"] = str(responseDict["routes"][0]["legs"][0]["duration"]["value"])
+    
+    return attractionList
 
 
 

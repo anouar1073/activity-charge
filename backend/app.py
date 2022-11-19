@@ -1,12 +1,13 @@
-from flask import Flask
+from flask import Flask, jsonify
 import requests
 import json
 
-from GoogleAPI import CalculateDistanceAndDrop, get_attractions
+from GoogleAPI import CalculateDistanceAndDrop, get_attractions, getWalkTime
 
 app = Flask(__name__)
 
-# Flask run
+
+# !!! Flask run im APP.py VERZEICHNIS AUSFÜHREN!!!!
 
 @app.route('/')
 def get_feed():
@@ -20,9 +21,9 @@ def get_feed():
     longitude = "11.576124"
     attractionList = get_attractions(latitude=latitude, longitude=longitude)
     #fetchChargingStation(attractionList[])
-    #attractionList = CalculateDistanceAndDrop(attractionList)
+    attractionList = getWalkTime(attractionList)
 
-    return "test"
+    return jsonify(attractionList)
 
 
 def fetchChargingStation(latitude: float, longitude: float):
