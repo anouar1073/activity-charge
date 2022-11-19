@@ -70,7 +70,7 @@ def fetchChargingStation(latitude: float, longitude: float):
 
 
 @app.route('/')
-def get_feed(latitude: float, longitude: float):
+def get_feed():
 
     # 1. Get Location --> Get attractions 
     # 2. Get Chargers next to attraction
@@ -89,6 +89,15 @@ def get_feed(latitude: float, longitude: float):
 
 
     return '<h1>Hello from Flask & Docker</h2>'
+
+
+"""
+@app.route("/dataPara", methods=['POST']) # http://127.0.0.1:5000/dataPara?name=asdfg&time=1345
+def postDataPara():
+    # request.args liefert: The parsed URL parameters (the part in the URL after the question mark).
+    name = request.args.get('name')
+    time = request.args.get('address')
+"""
 
 
 
