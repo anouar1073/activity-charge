@@ -1,64 +1,78 @@
 import * as React from "react";
-import {
-  Text,
-  View,
-  StyleSheet,
-  Button,
-  LogBox,
-  ScrollView,
-  SafeAreaView,
-  Image,
-} from "react-native";
-import { NavigationContainer } from "@react-navigation/native";
-import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import MapView from "react-native-maps";
-
+import {LogBox} from "react-native";
+import {NavigationContainer, DefaultTheme} from "@react-navigation/native";
+import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
+import {Ionicons} from '@expo/vector-icons';
 import SixtScreen from "./SixtScreen.js";
 import OurScreen from "./OurScreen.js";
-import colors from "./constants.js";
 import EventNavigator from "./EventNavigator.js";
 
 LogBox.ignoreLogs(["Remote debugger"]);
 const Tab = createBottomTabNavigator();
 
 export default function App() {
-  return (
-    <NavigationContainer>
-      <Tab.Navigator>
-        <Tab.Screen
-          name="Sixt tab"
-          component={SixtScreen}
-          unmountOnBlur={true}
-        />
-        <Tab.Screen
-          unmountOnBlur={true}
-          name="Our tab"
-          children={() => <EventNavigator />}
-        />
-      </Tab.Navigator>
-    </NavigationContainer>
-  );
+
+
+    const MyTheme = {
+        ...DefaultTheme,
+        colors: {
+            background: '#191919'
+        },
+    };
+
+    return (
+        <NavigationContainer theme={MyTheme}>
+            <Tab.Navigator screenOptions={{
+                tabBarActiveTintColor: "#ff5f00",
+                tabBarInactiveTintColor: "#808080",
+                tabBarStyle: {
+                    backgroundColor: '#262626',
+                    borderTopColor: 'transparent',
+                    fontSize: 10,
+                }
+            }}>
+                <Tab.Screen options={{
+                    headerShown: false,
+                    tabBarIcon: ({focused}) => (
+                        <Ionicons name="key-outline" color={focused ? "#ff5f00" : "#808080"} size={25}/>
+                    ),
+                }} name="Rent" component={SixtScreen}/>
+                <Tab.Screen options={{
+                    headerShown: false,
+                    tabBarIcon: ({focused}) => (
+                        <Ionicons name="car-outline" color={focused ? "#ff5f00" : "#808080"} size={25}/>
+                    ),
+                }} name="Share" component={SixtScreen}/>
+                <Tab.Screen options={{
+                    headerShown: false,
+                    tabBarIcon: ({focused}) => (
+                        <Ionicons name="car-sport-outline" color={focused ? "#ff5f00" : "#808080"} size={25}/>
+                    ),
+                }} name="Ride" component={SixtScreen}/>
+                <Tab.Screen options={{
+                    headerShown: false,
+                    tabBarIcon: ({focused}) => (
+                        <Ionicons name="add-circle-outline" color={focused ? "#ff5f00" : "#808080"} size={25}/>
+                    ),
+                }} name="Auto Abo" component={SixtScreen}/>
+                <Tab.Screen options={{
+                    headerShown: false,
+                    tabBarIcon: ({focused}) => (
+                        <Ionicons name="log-in-outline" color={focused ? "#ff5f00" : "#808080"} size={25}/>
+                    ),
+                }} name="Login" component={SixtScreen}/>
+                <Tab.Screen options={{
+                    headerShown: false,
+                    tabBarIcon: ({focused}) => (
+                        <Ionicons name="flag-outline" color={focused ? "#ff5f00" : "#808080"} size={25}/>
+                    ),
+                }} unmountOnBlur={true} name="Event" children={() => <EventNavigator/>}/>
+            </Tab.Navigator>
+        </NavigationContainer>
+    );
 }
 
-const styles = StyleSheet.create({
-  card: {
-    borderRadius: 15,
-    backgroundColor: colors.white,
-    marginBottom: 40,
-    overflow: "hidden",
-  },
-  detailsContainer: {
-    padding: 20,
-  },
-  image: {
-    width: "100%",
-    height: 300,
-  },
-  subTitle: {
-    color: colors.secondary,
-    fontWeight: "bold",
-  },
-  title: {
-    marginBottom: 7,
-  },
-});
+
+
+
+
