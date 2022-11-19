@@ -9,6 +9,8 @@ import {
   RefreshControl,
 } from "react-native";
 import { TouchableWithoutFeedback } from "react-native-gesture-handler";
+import { PermissionsAndroid } from "react-native";
+const { withAndroidManifest } = require("@expo/config-plugins");
 
 import colors from "./constants.js";
 import routes from "./routes.js";
@@ -19,6 +21,23 @@ const wait = (timeout) => {
 
 export default function OurScreen({ navigation }) {
   const [refreshing, setRefreshing] = React.useState(false);
+  const fetchData = async () => {
+    console.log("fetching data...");
+    let response = await fetch("google.com")
+      .then(
+        (response) => {
+          return response;
+        } // if the response is a JSON object
+      )
+      .then(
+        (success) => success // Handle the success response object
+      )
+      .catch(
+        (error) => error // Handle the error response object
+      );
+    console.log(response);
+    return response;
+  };
 
   const [events, setEvents] = React.useState([
     {
@@ -38,10 +57,10 @@ export default function OurScreen({ navigation }) {
     },
   ]);
 
-  const onRefresh = React.useCallback(() => {
+  const onRefresh = React.useCallback(async () => {
     // Hint: Make api call here
     setRefreshing(true);
-    wait(2000).then(() => setRefreshing(false));
+    await fetchData().then(() => setRefreshing(false));
   }, []);
 
   return (
