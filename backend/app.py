@@ -3,12 +3,17 @@ app = Flask(__name__)
 
 # Flask run
 
-class feedEntry(): 
+class FeedEntry(): 
     def __init__(self, attractionName: str, attractionLocation: tuple, attractionDescription: str, chargerLocation: tuple):
         self.attractionName = attractionName
         self.attractionLocation = attractionLocation
         self.attractionDescription = attractionDescription
         self.chargerLocation = chargerLocation
+
+        # attractionImageURL
+        # proposedCharingTime
+        # chargePercentAfterCharing
+        # moneySavedFromDoNotGetPenalty  
 
 
 @app.route('/')
