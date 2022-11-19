@@ -22,11 +22,10 @@ def postDataPara():
     longitude = request.args.get('lng', default="11.576124")
 
     attractionList = get_attractions(latitude=latitude, longitude=longitude)
-
-    #attractionList = fetchChargingStation(attractionList[2]["AttractionLocationLat"],attractionList[2]["AttractionLocationLng"],)
-    attractionList = getWalkTime(attractionList)
-    
+    chargingDict = fetchChargingStation(attractionList[2]["AttractionLocationLat"],attractionList[2]["AttractionLocationLng"],)
+    attractionList = getWalkTime(attractionList, chargingDict)
     attractionList = getDescription(attractionList)
+    
     return jsonify(attractionList)
 
 
