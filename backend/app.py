@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 import requests
 import json
 
-from GoogleAPI import CalculateDistanceAndDrop, get_attractions, getWalkTime
+from GoogleAPI import get_attractions, getWalkTime
 
 app = Flask(__name__)
 
@@ -20,13 +20,10 @@ def get_feed():
     latitude = "48.137154" 
     longitude = "11.576124"
     attractionList = get_attractions(latitude=latitude, longitude=longitude)
-    attractionList = fetchChargingStation(attractionList[2]["AttractionLocationLat"],attractionList[2]["AttractionLocationLng"],)
+    #attractionList = fetchChargingStation(attractionList[2]["AttractionLocationLat"],attractionList[2]["AttractionLocationLng"],)
     attractionList = getWalkTime(attractionList)
 
     return jsonify(attractionList)
-
-
-    return c
 
 
 def fetchChargingStation(latitude: float, longitude: float):
@@ -41,8 +38,8 @@ def fetchChargingStation(latitude: float, longitude: float):
         try:
             #print(i)
             closeLocations[i["AddressInfo"]["Title"]] = (i["AddressInfo"]["Latitude"],i["AddressInfo"]["Longitude"])
-            print(i["AddressInfo"]["Latitude"])
-            print(i["AddressInfo"]["Longitude"])
+            #print(i["AddressInfo"]["Latitude"])
+            #print(i["AddressInfo"]["Longitude"])
         except Exception:
             pass
     

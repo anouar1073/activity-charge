@@ -1,6 +1,8 @@
 import requests
 import json
 
+#https://developers.google.com/maps/documentation/directions/get-directions#mode
+
 apiKey = "AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U"
 
 latitude = "48.137154" 
