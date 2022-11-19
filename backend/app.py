@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 import requests
 import json
 
-from GoogleAPI import get_attractions, getWalkTime
+from GoogleAPI import get_attractions, getDescription, getWalkTime
 
 app = Flask(__name__)
 
@@ -24,7 +24,8 @@ def postDataPara():
     attractionList = get_attractions(latitude=latitude, longitude=longitude)
     #attractionList = fetchChargingStation(attractionList[2]["AttractionLocationLat"],attractionList[2]["AttractionLocationLng"],)
     attractionList = getWalkTime(attractionList)
-
+    
+    attractionList = getDescription(attractionList)
     return jsonify(attractionList)
 
 
