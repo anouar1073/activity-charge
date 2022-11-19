@@ -21,7 +21,7 @@ response = requests.request("GET", url, headers=headers, data=payload)
 print(response.text)
 
 import json
-with open('backend/attractions.json', 'w') as f:
+with open('backend/tests/attractions.json', 'w') as f:
     json.dump(json.loads(response.text), f, indent=4)
 
 

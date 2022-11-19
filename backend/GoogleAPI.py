@@ -23,17 +23,17 @@ def get_attractions(latitude: int, longitude: int):
     #with open('backend/attractions.json', 'w') as f:
     #    json.dump(responseDict, f, indent=4)
     
-    print(responseDict)
-    
     attractionList = []
     for dict in responseDict["results"]:
         attraction = {
             "AttractionName": dict["name"],
             "AttractionLocationLat": dict["geometry"]["location"]["lat"],
             "AttractionLocationLng": dict["geometry"]["location"]["lng"],
-            "AttractionDescription": "Ein super Ort zum Laden und spaß haben, hihi!!",
-            "ChargerLocationLat": "None",
-            "ChargerLocationLng": "None"
+            "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
+            "ChargerLocationLat": "10.000000",
+            "ChargerLocationLng": "10.000000",
+            "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=" + dict["photos"][0]["photo_reference"] + "&key=" + apiKey,
+            "place_id": dict["place_id"]
             
             # attractionImageURL
             # proposedCharingTime
@@ -42,15 +42,60 @@ def get_attractions(latitude: int, longitude: int):
         }
         attractionList.append(attraction)
 
-    print(attractionList)
     return attractionList
 
 
-def CalculateDistanceAndDrop(attractionList: list):
-    pass
+def getWalkTime(attractionList: list, chargingDict: dict):
+    maxWalkTime = 1000
+    for k,v in chargingDict.items():
+        final = []
+        for idx,attraction in enumerate(attractionList):
+            print(v[0],v[1])
+
+            attraction["ChargerLocationLat"] = v[0]
+            attraction["ChargerLocationLng"] = v[1]
+            apiKey = "AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U"
+
+            origin = str(attraction["AttractionLocationLat"]) + "%2C" + str(attraction["AttractionLocationLng"])
+            dest = str(v[0])  + "%2C" + str(v[1])
+
+            url = "https://maps.googleapis.com/maps/api/directions/json?origin="+ origin +"&destination="+ dest +"&key=" + apiKey + "&mode=walking"
+
+            payload={}
+            headers = {}
+            response = requests.request("GET", url, headers=headers, data=payload)
+            responseDict = json.loads(response.text)
+            walkTime = int(responseDict["routes"][0]["legs"][0]["duration"]["value"])
+            #print(walkTime)
+            if(maxWalkTime > walkTime ):
+                attraction["WalkTimeSeconds"] = str(responseDict["routes"][0]["legs"][0]["duration"]["value"])
+            else:
+                attractionList.remove(attraction)
+    
+    return attractionList
 
 
 
+def getDescription(attractionList: list):
+    for attraction in attractionList:
+        key = "AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U"
+        place_id = attraction["place_id"]
+
+        url = "https://maps.googleapis.com/maps/api/place/details/json?place_id=" + place_id + "&fields=formatted_address,name,geometry,editorial_summary&key=" + key
+
+        payload={}
+        headers = {}
+        response = requests.request("GET", url, headers=headers, data=payload)
+        responseDict = json.loads(response.text)
+
+        print(responseDict["result"])
+
+        if "editorial_summary" in responseDict["result"]:
+            attraction["AttractionDescription"] = str(responseDict["result"]["editorial_summary"]["overview"])
+        else:
+            attraction["AttractionDescription"] = "No description"
+    
+    return attractionList
 
 
 if __name__ == "__main__":
