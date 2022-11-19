@@ -2,7 +2,7 @@ from flask import Flask
 import requests
 import json
 
-from backend.attractionAPI import get_attractions
+from AttractionAPI import get_attractions
 
 app = Flask(__name__)
 
