@@ -1,20 +1,139 @@
-{'editorial_summary': {'language': 'en', 'overview': 'Built in 1937, this fountain features a statue of the Roman god Neptune & a horse with a fish tail.'}, 'formatted_address': '80333 Munich, Germany', 'geometry': {'location': {'lat': 48.14127879999999, 'lng': 11.565233}, 'viewport': {'northeast': {'lat': 48.14262778029148, 'lng': 11.5665819802915}, 'southwest': {'lat': 48.13992981970848, 'lng': 11.5638840197085}}}, 'name': 'Neptunbrunnen'}
-{'editorial_summary': {'language': 'en', 'overview': 'Historic fountain depicting the god of the Rhine, built from 1897 to 1903 in scenic park surrounds.'}, 'formatted_address': 'Auf d. Insel, 80538 München, Germany', 'geometry': {'location': {'lat': 48.13237830000001, 'lng': 11.5865944}, 'viewport': {'northeast': {'lat': 48.1335394302915, 'lng': 11.5875236302915}, 'southwest': {'lat': 48.1308414697085, 'lng': 11.5848256697085}}}, 'name': 'Rhein-Brunnen Fountain'}
-{'formatted_address': 'Türkenstraße 17, 80333 München, Germany', 'geometry': {'location': {'lat': 48.1472299, 'lng': 11.5737519}, 'viewport': {'northeast': {'lat': 48.14855438029149, 'lng': 11.5751860802915}, 'southwest': {'lat': 48.1458564197085, 'lng': 11.5724881197085}}}, 'name': 'Turkish Gate'}
-{'editorial_summary': {'language': 'en', 'overview': '3-floor beer hall dating back to the 16th century, with a Bavarian restaurant, shows & upbeat vibe.'}, 'formatted_address': 'Platzl 9, 80331 München, Germany', 'geometry': {'location': {'lat': 48.1376098, 'lng': 11.5799253}, 'viewport': {'northeast': {'lat': 48.1389888302915, 'lng': 11.5811348302915}, 'southwest': {'lat': 48.1362908697085, 'lng': 11.5784368697085}}}, 'name': 'Hofbräuhaus München'}
-{'editorial_summary': {'language': 'en', 'overview': 'Huge technology museum with original artifacts & interactive energy, transport & astronomy displays.'}, 'formatted_address': 'Museumsinsel 1, 80538 München, Germany', 'geometry': {'location': {'lat': 48.1298707, 'lng': 11.5834522}, 'viewport': {'northeast': {'lat': 48.1329787, 'lng': 11.5875438}, 'southwest': {'lat': 48.1282303, 'lng': 11.581631}}}, 'name': 'Deutsches Museum'}
-{'editorial_summary': {'language': 'en', 'overview': 'Art museum hosting temporary & traveling exhibitions, plus research & regular events.'}, 'formatted_address': 'Prinzregentenstraße 1, 80538 München, Germany', 'geometry': {'location': {'lat': 48.1440874, 'lng': 11.5859424}, 'viewport': {'northeast': {'lat': 48.14522978029149, 'lng': 11.58885395}, 'southwest': {'lat': 48.14253181970849, 'lng': 11.58333655}}}, 'name': 'Haus der Kunst'}
-{'editorial_summary': {'language': 'en', 'overview': 'Palace, buildings & gardens housing state-owned museums, with original interiors & artworks.'}, 'formatted_address': 'Residenzstraße 1, 80333 München, Germany', 'geometry': {'location': {'lat': 48.1417978, 'lng': 11.579486}, 'viewport': {'northeast': {'lat': 48.14341899999999, 'lng': 11.58064765}, 'southwest': {'lat': 48.1380966, 'lng': 11.57640585}}}, 'name': 'Munich Residenz'}
-{'editorial_summary': {'language': 'en', 'overview': 'Vast, contemporary museum housing art, architecture, design & graphics of the 19th & 20th centuries.'}, 'formatted_address': 'Barer Str. 40, 80333 München, Germany', 'geometry': {'location': {'lat': 48.1471559, 'lng': 11.5723021}, 'viewport': {'northeast': {'lat': 48.1484480302915, 'lng': 11.5730605802915}, 'southwest': {'lat': 48.1457500697085, 'lng': 11.5703626197085}}}, 'name': 'Pinakothek der Moderne'}
-{'editorial_summary': {'language': 'en', 'overview': "2 towers top this restored Gothic church, bombed in 1945, known for its legendary Devil's footprint."}, 'formatted_address': 'Frauenplatz 12, 80331 München, Germany', 'geometry': {'location': {'lat': 48.13863099999999, 'lng': 11.5736254}, 'viewport': {'northeast': {'lat': 48.14015878029149, 'lng': 11.5744703302915}, 'southwest': {'lat': 48.13746081970849, 'lng': 11.5717723697085}}}, 'name': 'Frauenkirche'}
-{'editorial_summary': {'language': 'en', 'overview': 'Modern & contemporary art museum with works by Kandinsky, Klee & the Blue Rider movement.'}, 'formatted_address': 'Luisenstraße 33, 80333 München, Germany', 'geometry': {'location': {'lat': 48.1466818, 'lng': 11.563985}, 'viewport': {'northeast': {'lat': 48.1478775302915, 'lng': 11.5649485302915}, 'southwest': {'lat': 48.1451795697085, 'lng': 11.5622505697085}}}, 'name': 'Lenbachhaus'}
-{'editorial_summary': {'language': 'en', 'overview': 'Major art collection in a vast neoclassical building displaying about 900 paintings at any one time.'}, 'formatted_address': 'Barer Str. 27, 80333 München, Germany', 'geometry': {'location': {'lat': 48.14829129999999, 'lng': 11.5699847}, 'viewport': {'northeast': {'lat': 48.1496134302915, 'lng': 11.57244175}, 'southwest': {'lat': 48.1469154697085, 'lng': 11.56746875}}}, 'name': 'Alte Pinakothek'}
-{'editorial_summary': {'language': 'en', 'overview': "Munich's oldest church, housing the jeweled skeleton of St. Mundita, plus a tower with city views."}, 'formatted_address': 'Rindermarkt 1, 80331 München, Germany', 'geometry': {'location': {'lat': 48.136491, 'lng': 11.5760468}, 'viewport': {'northeast': {'lat': 48.1378583802915, 'lng': 11.5772946}, 'southwest': {'lat': 48.13516041970851, 'lng': 11.5745542}}}, 'name': "St. Peter's Church"}
-{'editorial_summary': {'language': 'en', 'overview': 'Ornate neo-Gothic town hall with a soaring tower for city views & famous glockenspiel chiming daily.'}, 'formatted_address': 'Marienplatz 8, 80331 München, Germany', 'geometry': {'location': {'lat': 48.1373363, 'lng': 11.5761399}, 'viewport': {'northeast': {'lat': 48.14036509999999, 'lng': 11.5786798}, 'southwest': {'lat': 48.13520670000001, 'lng': 11.571901}}}, 'name': 'New Town Hall'}
-{'editorial_summary': {'language': 'en', 'overview': 'Local history & culture museum, including exhibitions about music & weaponry, plus a cafe/bar.'}, 'formatted_address': 'Sankt-Jakobs-Platz 1, 80331 München, Germany', 'geometry': {'location': {'lat': 48.1348581, 'lng': 11.5734615}, 'viewport': {'northeast': {'lat': 48.1359651302915, 'lng': 11.5751621302915}, 'southwest': {'lat': 48.1332671697085, 'lng': 11.5724641697085}}}, 'name': 'Munich Stadtmuseum'}
-{'editorial_summary': {'language': 'en', 'overview': 'Compact 1700s church known for its lavish, baroque interior swathed in gold leaf, frescoes & stucco.'}, 'formatted_address': 'Sendlinger Str. 32, 80331 München, Germany', 'geometry': {'location': {'lat': 48.1351607, 'lng': 11.5696412}, 'viewport': {'northeast': {'lat': 48.1363737302915, 'lng': 11.5709324802915}, 'southwest': {'lat': 48.1336757697085, 'lng': 11.5682345197085}}}, 'name': 'Asamkirche'}
-{'editorial_summary': {'language': 'en', 'overview': '19th-century art in a modern, airy museum, including masterpieces by Monet, van Gogh and Cezanne.'}, 'formatted_address': 'Barer Str. 29, 80799 München, Germany', 'geometry': {'location': {'lat': 48.1498869, 'lng': 11.5711139}, 'viewport': {'northeast': {'lat': 48.1509398302915, 'lng': 11.5722862302915}, 'southwest': {'lat': 48.14824186970851, 'lng': 11.5695882697085}}}, 'name': 'Neue Pinakothek'}
-{'editorial_summary': {'language': 'en', 'overview': 'Educational museum with temporary, hands-on exhibitions for kids to experiment with & learn.'}, 'formatted_address': 'Arnulfstraße 3, 80335 München, Germany', 'geometry': {'location': {'lat': 48.1415265, 'lng': 11.5583708}, 'viewport': {'northeast': {'lat': 48.1429107802915, 'lng': 11.5597363802915}, 'southwest': {'lat': 48.1402128197085, 'lng': 11.5570384197085}}}, 'name': 'Kindermuseum München'}
-{'editorial_summary': {'language': 'en', 'overview': 'Beer & Oktoberfest exhibitions in museum in restored 14th-century townhouse, plus brew tasting.'}, 'formatted_address': 'Sterneckerstraße 2, 80331 München, Germany', 'geometry': {'location': {'lat': 48.1352911, 'lng': 11.5802132}, 'viewport': {'northeast': {'lat': 48.13649308029149, 'lng': 11.5816258802915}, 'southwest': {'lat': 48.13379511970849, 'lng': 11.5789279197085}}}, 'name': 'Beer and Oktoberfest Museum'}
-{'editorial_summary': {'language': 'en', 'overview': "19th-century, Italianate monument to the Bavarian army & the site of Hitler's 1923 Beer Hall Putsch."}, 'formatted_address': 'Residenzstraße 1, 80333 München, Germany', 'geometry': {'location': {'lat': 48.1417443, 'lng': 11.5773413}, 'viewport': {'northeast': {'lat': 48.1435713302915, 'lng': 11.5788743802915}, 'southwest': {'lat': 48.1408733697085, 'lng': 11.5761764197085}}}, 'name': 'Feldherrnhalle'}
-{'editorial_summary': {'language': 'en', 'overview': 'Sprawling 200-year-old market with over 100 stalls selling goods from fruit to meat & flowers.'}, 'formatted_address': 'Viktualienmarkt 3, 80331 München, Germany', 'geometry': {'location': {'lat': 48.1351143, 'lng': 11.5762549}, 'viewport': {'northeast': {'lat': 48.1362445802915, 'lng': 11.5773079802915}, 'southwest': {'lat': 48.1335466197085, 'lng': 11.5746100197085}}}, 'name': 'Victuals Market'}
+[
+    {
+        "AttractionDescription": "Historic fountain depicting the god of the Rhine, built from 1897 to 1903 in scenic park surrounds.",
+        "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AW30NDy9l18S7AGkhxGDalJD2j19zRGAz842fxL3JOLWfua-3KOqLqC9C7DvFImQTa-NKASK0IxVfEk6YEo-vegDsNFlmM1WOQ5iZhXPkSuW7NBGqs33AbuVpbgFDh1x3MI-KxS9PC8ggZiF5FUojOivVMngMqM1K3rHVbQ6zyUfUqDHivjy&key=AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U",
+        "AttractionLocationLat": 48.13237830000001,
+        "AttractionLocationLng": 11.5865944,
+        "AttractionName": "Rhein-Brunnen Fountain",
+        "ChargerLocationLat": "10.000000",
+        "ChargerLocationLng": "10.000000",
+        "place_id": "ChIJby2NSX3fnUcRVjsX-NhguXY"
+    },
+    {
+        "AttractionDescription": "No description",
+        "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AW30NDwO0nbOH6By7e1alqya9umXUJMx_DSNirqRHzEz7fJ6hi0Lj4PdTH52mhMi5m3xmGVxP9-TNFkJnMlW52ygrbyIyPJyUcAnSsFpddWkZGqQL1wOfPrLOmyYqGh5b7p8HVUXMpfmP_J3bEnZ-_3AFXEDl4VmoelFm3Ek0svKKylOzDQ_&key=AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U",
+        "AttractionLocationLat": 48.1472299,
+        "AttractionLocationLng": 11.5737519,
+        "AttractionName": "Turkish Gate",
+        "ChargerLocationLat": 48.14835,
+        "ChargerLocationLng": 11.574242,
+        "WalkTimeSeconds": "125",
+        "place_id": "ChIJ9SuDR-x1nkcRHEtTL3Mb5jQ"
+    },
+    {
+        "AttractionDescription": "Huge technology museum with original artifacts & interactive energy, transport & astronomy displays.",
+        "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AW30NDzAqs0z-XqIfgKowNFcDKcKf3__SwagOEBH_Ggfg5HWabfoSLwLR0RSo1OUCW9nUFlfpcUBRUn2zSxk4ASwyKTQc1Y8IhvXRG4oWlvUY4HAKR087TvP6GhvE4W70LKrTflcGcyESHL9PuV3lCc4hcmgmWy6thyZ5Z0u6EPKdh1Ikys2&key=AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U",
+        "AttractionLocationLat": 48.1298707,
+        "AttractionLocationLng": 11.5834522,
+        "AttractionName": "Deutsches Museum",
+        "ChargerLocationLat": "10.000000",
+        "ChargerLocationLng": "10.000000",
+        "place_id": "ChIJ01CaE2PfnUcRUpb8Ylg-UXo"
+    },
+    {
+        "AttractionDescription": "Art museum hosting temporary & traveling exhibitions, plus research & regular events.",
+        "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AW30NDyNfCOOhnGuU7IGuV0OxFJ_2AIJFZ_pXnYyeppfo8YUgS6gn646OO-bV6V-Nd92-vFEONZPxgi3oSkISIhQRJzEZxxH--cuzu-fCCGU-ahv4cPR--VIXEneI7CUmlz1N_4tbxSN-stmQjLpTTmAXxPZqL-tqT46DG79wzLhIYzqxlxU&key=AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U",
+        "AttractionLocationLat": 48.1440874,
+        "AttractionLocationLng": 11.5859424,
+        "AttractionName": "Haus der Kunst",
+        "ChargerLocationLat": 48.14835,
+        "ChargerLocationLng": 11.574242,
+        "WalkTimeSeconds": "864",
+        "place_id": "ChIJ6S4O1pF1nkcRq1FqjecOHZU"
+    },
+    {
+        "AttractionDescription": "Palace, buildings & gardens housing state-owned museums, with original interiors & artworks.",
+        "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AW30NDwlH4vy44ijAHC8rjnn-EsMJRQ_1XtQ2vjzJhazQu6F8o0r7bMuMcJ3LzKckSaWs7T2qaT3cn2umU5Fw7F3e_Yd0J_YPb0mar3BJ0vQhDBOf_po8JTh2ykSnBgvJtr_sOJgt9-4C1HRKtTy57JV9uBdrSMjs5c2TumLR88qHHsIVo9I&key=AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U",
+        "AttractionLocationLat": 48.1417978,
+        "AttractionLocationLng": 11.579486,
+        "AttractionName": "Munich Residenz",
+        "ChargerLocationLat": 48.14835,
+        "ChargerLocationLng": 11.574242,
+        "WalkTimeSeconds": "829",
+        "place_id": "ChIJrWV_DYx1nkcRD_tKgCHVad4"
+    },
+    {
+        "AttractionDescription": "Vast, contemporary museum housing art, architecture, design & graphics of the 19th & 20th centuries.",
+        "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AW30NDyFMbOYJ8uGE0xOUn0W6Td2VT6izvRX-V839grU8TCEBsM1AuDNtv0CjDkpskt8xEuFHUTHYyt3PFn3SYLASsWKXHud4LR7ngMmiUksUvg-CMRkRRJEUHVcO93mKYKCMKJ6zeBlC--XXNgSJDU1s-XygrEWFhYbSlgPgaR82QOHNrg4&key=AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U",
+        "AttractionLocationLat": 48.1471559,
+        "AttractionLocationLng": 11.5723021,
+        "AttractionName": "Pinakothek der Moderne",
+        "ChargerLocationLat": 48.14835,
+        "ChargerLocationLng": 11.574242,
+        "WalkTimeSeconds": "300",
+        "place_id": "ChIJW8LuYO51nkcRZqoW2f9yn8c"
+    },
+    {
+        "AttractionDescription": "Modern & contemporary art museum with works by Kandinsky, Klee & the Blue Rider movement.",
+        "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AW30NDx6rQbeIjIHup30SZ_WrOXAQpDJiEBgD8ISyFaWMMTqtX3ErozPA5GtDMGE29cK22bJiH_QMA9IdyyXaWeGhI4pNgWNcd2oY6WlbVpKZTs_OnfqOR8H2yeokjrUioi6pw3O7BlvwRgRdtL9v13vQe14ayiOZoPlpgQc5H5oOYOBNs7L&key=AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U",
+        "AttractionLocationLat": 48.1466818,
+        "AttractionLocationLng": 11.563985,
+        "AttractionName": "Lenbachhaus",
+        "ChargerLocationLat": "10.000000",
+        "ChargerLocationLng": "10.000000",
+        "place_id": "ChIJD2wwR-V1nkcRCKM7kD249X8"
+    },
+    {
+        "AttractionDescription": "Major art collection in a vast neoclassical building displaying about 900 paintings at any one time.",
+        "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AW30NDyU3OmK4ixMOXACCqLktPVqrCZHfnfLi-mhDeGrwOtpyRtG6MyZDMPk__f6dW_vRyFb62EnOGKJzXYi4kIqBfwdrOHPyCJT-Es4UuBg9rQgTKgUiBkER2ONE0zhCPJhUVDU7MWWGCOdnA98_ZTKm7aaz8oouELTvCNHti3D92Fz1uE1&key=AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U",
+        "AttractionLocationLat": 48.14829129999999,
+        "AttractionLocationLng": 11.5699847,
+        "AttractionName": "Alte Pinakothek",
+        "ChargerLocationLat": 48.14835,
+        "ChargerLocationLng": 11.574242,
+        "WalkTimeSeconds": "345",
+        "place_id": "ChIJ12nAjO51nkcRt8DRlE8kWIE"
+    },
+    {
+        "AttractionDescription": "Ornate neo-Gothic town hall with a soaring tower for city views & famous glockenspiel chiming daily.",
+        "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AW30NDwI4feMGBaOAWP9l_2qiccCRf-Xk08qQUdwYC1SImxmhoABOXxn7KEZWJyjwbOcmrcvWKPGbj6oa-mznARE_bzGhQl_VVGixqcmZtz1ac8HBAAsNyNpwCiC8m2T4CywB5YWTgki4keKdjEJznyAvQvOoSqomKCs-zOHV6VBG3ddiKKx&key=AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U",
+        "AttractionLocationLat": 48.1373363,
+        "AttractionLocationLng": 11.5761399,
+        "AttractionName": "New Town Hall",
+        "ChargerLocationLat": "10.000000",
+        "ChargerLocationLng": "10.000000",
+        "place_id": "ChIJ_0T5Jot1nkcRZ3kV_GGLAFE"
+    },
+    {
+        "AttractionDescription": "Compact 1700s church known for its lavish, baroque interior swathed in gold leaf, frescoes & stucco.",
+        "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AW30NDyrf19GiebpnyTomw29nalmuH6PMZ7hWR6yEQo-Dn4SGMoRddsTMyXFeG5OLHos0h_v1DONvNR-7rF_M4mgzZ2rqlFGyLVDv8cu7LVLqq7JVcp4dE4EKDM1Y29ghRz4WRbpZl6PO_oQnkxWy19AR_eKJLmsx20DQVJi0q7h-uuTVjU&key=AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U",
+        "AttractionLocationLat": 48.1351607,
+        "AttractionLocationLng": 11.5696412,
+        "AttractionName": "Asamkirche",
+        "ChargerLocationLat": "10.000000",
+        "ChargerLocationLng": "10.000000",
+        "place_id": "ChIJyaP7Y1_fnUcRQDvzvurW66U"
+    },
+    {
+        "AttractionDescription": "19th-century art in a modern, airy museum, including masterpieces by Monet, van Gogh and Cezanne.",
+        "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AW30NDwTJ_By7l15w4ek4KmKOKg4VadeYwl27xwtKhstgjCFOnWi2PlvJVLxN_JyNsgwEEaBP3sGwMaG5M8jULwMF0cP_wTVkda-Qr6iTU4igZplJGaNii6mXI8ck1Kn7oXBJ-RypXzZZqKHyAUPxX4USz8BhS8ODocCJd4NFOwbEawYKUjC&key=AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U",
+        "AttractionLocationLat": 48.1498869,
+        "AttractionLocationLng": 11.5711139,
+        "AttractionName": "Neue Pinakothek",
+        "ChargerLocationLat": 48.14835,
+        "ChargerLocationLng": 11.574242,
+        "WalkTimeSeconds": "304",
+        "place_id": "ChIJpxwTuO51nkcRFd7xxn8IYpA"
+    },
+    {
+        "AttractionDescription": "Beer & Oktoberfest exhibitions in museum in restored 14th-century townhouse, plus brew tasting.",
+        "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AW30NDz45SS0x8Tx6dHcUSwZEtoHUw-KOCHkBRL9OjcxVO_QmVnX0ABUMbLntDSKKJj3evyYu47zZGibLzGj8UWmSWGQfmZV34lXakorUFq1OoP40NdhTh_JHKHNI9r2Z9jS1JBiLJmySv8XVCaXhUv-562fazJVmDM-bU2RrQ3XoaBBC6RC&key=AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U",
+        "AttractionLocationLat": 48.1352911,
+        "AttractionLocationLng": 11.5802132,
+        "AttractionName": "Beer and Oktoberfest Museum",
+        "ChargerLocationLat": "10.000000",
+        "ChargerLocationLng": "10.000000",
+        "place_id": "ChIJ-88eGYp1nkcRpm2C9-efi7g"
+    },
+    {
+        "AttractionDescription": "19th-century, Italianate monument to the Bavarian army & the site of Hitler's 1923 Beer Hall Putsch.",
+        "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AW30NDzNGdSi23-eBwOt4FJoOKFcGJ6UAzUOMi-_x6N3ZS1SmdyV_VqkKtqfV7XAd_22QKDzuvPpfv7dLR_TYWrSGtOBPdaxmcJ1wd2hFBnpsr3xj2mNGvSHo8f5rB2m3PYdscl0mpZr7IK9OyyY2_qSEYD9D2lQeKRvn10fylBm2ocSvHHb&key=AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U",
+        "AttractionLocationLat": 48.1417443,
+        "AttractionLocationLng": 11.5773413,
+        "AttractionName": "Feldherrnhalle",
+        "ChargerLocationLat": 48.14835,
+        "ChargerLocationLng": 11.574242,
+        "WalkTimeSeconds": "788",
+        "place_id": "ChIJ6Xk20Yx1nkcRmEPmCI2hsCg"
+    }
+]
