@@ -20,18 +20,20 @@ def get_attractions(latitude: int, longitude: int):
 
 
     responseDict = json.loads(response.text)
-    with open('backend/attractions.json', 'w') as f:
-        json.dump(responseDict, f, indent=4)
+    #with open('backend/attractions.json', 'w') as f:
+    #    json.dump(responseDict, f, indent=4)
     
     print(responseDict)
     
     attractionList = []
     for dict in responseDict["results"]:
         attraction = {
-            "AttractionName": "test",
-            "AttractionLocation": "test",
-            "AttractionDescription": "test",
-            "ChargerLocation": "test"
+            "AttractionName": dict["name"],
+            "AttractionLocationLat": dict["geometry"]["location"]["lat"],
+            "AttractionLocationLng": dict["geometry"]["location"]["lng"],
+            "AttractionDescription": "Ein super Ort zum Laden und spaß haben, hihi!!",
+            "ChargerLocationLat": "None",
+            "ChargerLocationLng": "None"
             
             # attractionImageURL
             # proposedCharingTime
@@ -41,6 +43,14 @@ def get_attractions(latitude: int, longitude: int):
         attractionList.append(attraction)
 
     print(attractionList)
+    return attractionList
+
+
+def CalculateDistanceAndDrop(attractionList: list):
+    pass
+
+
+
 
 
 if __name__ == "__main__":
