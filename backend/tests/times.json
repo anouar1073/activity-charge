@@ -1,182 +1,1168 @@
-[
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.14127879999999,
-        "AttractionLocationLng": 11.565233,
-        "AttractionName": "Neptunbrunnen",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3380538"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.13237830000001,
-        "AttractionLocationLng": 11.5865944,
-        "AttractionName": "Rhein-Brunnen Fountain",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3380284"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.1472299,
-        "AttractionLocationLng": 11.5737519,
-        "AttractionName": "Turkish Gate",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3381189"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.1376098,
-        "AttractionLocationLng": 11.5799253,
-        "AttractionName": "Hofbr\u00e4uhaus M\u00fcnchen",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3380383"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.1298707,
-        "AttractionLocationLng": 11.5834522,
-        "AttractionName": "Deutsches Museum",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3380057"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.1440874,
-        "AttractionLocationLng": 11.5859424,
-        "AttractionName": "Haus der Kunst",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3381128"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.1417978,
-        "AttractionLocationLng": 11.579486,
-        "AttractionName": "Munich Residenz",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3380723"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.1471559,
-        "AttractionLocationLng": 11.5723021,
-        "AttractionName": "Pinakothek der Moderne",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3381634"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.13863099999999,
-        "AttractionLocationLng": 11.5736254,
-        "AttractionName": "Frauenkirche",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3380352"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.1466818,
-        "AttractionLocationLng": 11.563985,
-        "AttractionName": "Lenbachhaus",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3380870"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.14829129999999,
-        "AttractionLocationLng": 11.5699847,
-        "AttractionName": "Alte Pinakothek",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3381235"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.136491,
-        "AttractionLocationLng": 11.5760468,
-        "AttractionName": "St. Peter's Church",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3380170"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.1373363,
-        "AttractionLocationLng": 11.5761399,
-        "AttractionName": "New Town Hall",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3380225"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.1348581,
-        "AttractionLocationLng": 11.5734615,
-        "AttractionName": "Munich Stadtmuseum",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3379974"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.1351607,
-        "AttractionLocationLng": 11.5696412,
-        "AttractionName": "Asamkirche",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3379868"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.1498869,
-        "AttractionLocationLng": 11.5711139,
-        "AttractionName": "Neue Pinakothek",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3381504"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.1415265,
-        "AttractionLocationLng": 11.5583708,
-        "AttractionName": "Kindermuseum M\u00fcnchen",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3380312"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.1352911,
-        "AttractionLocationLng": 11.5802132,
-        "AttractionName": "Beer and Oktoberfest Museum",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3380325"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.1417443,
-        "AttractionLocationLng": 11.5773413,
-        "AttractionName": "Feldherrnhalle",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3380575"
-    },
-    {
-        "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-        "AttractionLocationLat": 48.1351143,
-        "AttractionLocationLng": 11.5762549,
-        "AttractionName": "Victuals Market",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
-        "WalkTimeSeconds": "3380034"
-    }
-]
+{
+    "geocoded_waypoints": [
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJUYaFpvB1nkcRHLHMm23OcwY",
+            "types": [
+                "establishment",
+                "park",
+                "point_of_interest",
+                "tourist_attraction"
+            ]
+        },
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJ1fykbf5ynkcRedHcxXWSEqY",
+            "types": [
+                "establishment",
+                "point_of_interest"
+            ]
+        }
+    ],
+    "routes": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 48.2496069,
+                    "lng": 11.6531362
+                },
+                "southwest": {
+                    "lat": 48.14068169999999,
+                    "lng": 11.5650707
+                }
+            },
+            "copyrights": "Map data \u00a92022 GeoBasis-DE/BKG (\u00a92009)",
+            "legs": [
+                {
+                    "distance": {
+                        "text": "16.2 km",
+                        "value": 16202
+                    },
+                    "duration": {
+                        "text": "3 hours 18 mins",
+                        "value": 11899
+                    },
+                    "end_address": "M\u00fcnchener Str. 7A, 85748 Garching bei M\u00fcnchen, Germany",
+                    "end_location": {
+                        "lat": 48.2491675,
+                        "lng": 11.6531362
+                    },
+                    "start_address": "Alter Botanischer Garten, Sophienstra\u00dfe 7, 80333 M\u00fcnchen, Germany",
+                    "start_location": {
+                        "lat": 48.1411945,
+                        "lng": 11.5651721
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "30 m",
+                                "value": 30
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 23
+                            },
+                            "end_location": {
+                                "lat": 48.1410352,
+                                "lng": 11.5650707
+                            },
+                            "html_instructions": "Head <b>southwest</b> toward <b>Elisenstra\u00dfe</b><div style=\"font-size:0.9em\">Take the stairs</div>",
+                            "polyline": {
+                                "points": "mqydHiyqeALHFBB@BB"
+                            },
+                            "start_location": {
+                                "lat": 48.1411945,
+                                "lng": 11.5651721
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "51 m",
+                                "value": 51
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 37
+                            },
+                            "end_location": {
+                                "lat": 48.1408682,
+                                "lng": 11.5656232
+                            },
+                            "html_instructions": "Turn <b>left</b> onto <b>Elisenstra\u00dfe</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "opydHuxqeABI@ELo@BMH_@"
+                            },
+                            "start_location": {
+                                "lat": 48.1410352,
+                                "lng": 11.5650707
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.1 km",
+                                "value": 106
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 80
+                            },
+                            "end_location": {
+                                "lat": 48.1407072,
+                                "lng": 11.5670041
+                            },
+                            "html_instructions": "Slight <b>left</b> to stay on <b>Elisenstra\u00dfe</b>",
+                            "maneuver": "turn-slight-left",
+                            "polyline": {
+                                "points": "moydHc|qeANg@BGDU@I@M@I?I?G?EC@?K@]?G?S?M@m@@SA?"
+                            },
+                            "start_location": {
+                                "lat": 48.1408682,
+                                "lng": 11.5656232
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 168
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 129
+                            },
+                            "end_location": {
+                                "lat": 48.1413701,
+                                "lng": 11.5687999
+                            },
+                            "html_instructions": "Continue onto <b>Lenbachpl.</b>",
+                            "polyline": {
+                                "points": "mnydHwdreA?OB?@e@?Q?KASAGCKCICGCGACKc@IQSSQ]Q[Ya@Kg@"
+                            },
+                            "start_location": {
+                                "lat": 48.1407072,
+                                "lng": 11.5670041
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.4 km",
+                                "value": 387
+                            },
+                            "duration": {
+                                "text": "5 mins",
+                                "value": 284
+                            },
+                            "end_location": {
+                                "lat": 48.1431621,
+                                "lng": 11.5731793
+                            },
+                            "html_instructions": "Continue onto <b>Maximilianspl.</b>",
+                            "polyline": {
+                                "points": "qrydH_preA]O]e@EIEKCIEKEUCIMi@EW_@aBG]G[EOAKGUEBAEESAE@ACIE[EQa@kBESU_AESIc@GWAGGSAECKCGCEEKSYCEKK"
+                            },
+                            "start_location": {
+                                "lat": 48.1413701,
+                                "lng": 11.5687999
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "69 m",
+                                "value": 69
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 69
+                            },
+                            "end_location": {
+                                "lat": 48.1432844,
+                                "lng": 11.5738289
+                            },
+                            "html_instructions": "Take the crosswalk",
+                            "polyline": {
+                                "points": "w}ydHkkseAH[@EFY@ADa@?GUM]K"
+                            },
+                            "start_location": {
+                                "lat": 48.1431621,
+                                "lng": 11.5731793
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 224
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 171
+                            },
+                            "end_location": {
+                                "lat": 48.1453037,
+                                "lng": 11.57481
+                            },
+                            "html_instructions": "Continue onto <b>Oskar-von-Miller-Ring</b>",
+                            "polyline": {
+                                "points": "o~ydHmoseAYMCAELMEMGOEMGKCi@SKC{@_@Y_@a@OMDwAm@GEMK"
+                            },
+                            "start_location": {
+                                "lat": 48.1432844,
+                                "lng": 11.5738289
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.3 km",
+                                "value": 304
+                            },
+                            "duration": {
+                                "text": "4 mins",
+                                "value": 223
+                            },
+                            "end_location": {
+                                "lat": 48.1452799,
+                                "lng": 11.57857
+                            },
+                            "html_instructions": "Turn <b>right</b> to stay on <b>Oskar-von-Miller-Ring</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "ckzdHquseAEa@AG?M?[?GAq@?YKmEAUAa@CY?IA[?k@A??S?IJo@XgC"
+                            },
+                            "start_location": {
+                                "lat": 48.1453037,
+                                "lng": 11.57481
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.6 km",
+                                "value": 647
+                            },
+                            "duration": {
+                                "text": "8 mins",
+                                "value": 498
+                            },
+                            "end_location": {
+                                "lat": 48.1507052,
+                                "lng": 11.5816067
+                            },
+                            "html_instructions": "Turn <b>left</b> onto <b>Ludwigstra\u00dfe</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "_kzdHamteAg@Q@GWE{Ai@MKMEUGECUIw@YGE@MJs@@ISIG?EAKE}@]MGSGkDqAEAQG_Aa@KE]K]IuAi@YKE?OIIIICQGYMYE_A]KE_@Y"
+                            },
+                            "start_location": {
+                                "lat": 48.1452799,
+                                "lng": 11.57857
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 171
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 121
+                            },
+                            "end_location": {
+                                "lat": 48.1521577,
+                                "lng": 11.5824195
+                            },
+                            "html_instructions": "Slight <b>right</b> to stay on <b>Ludwigstra\u00dfe</b>",
+                            "maneuver": "turn-slight-right",
+                            "polyline": {
+                                "points": "}l{dHa`ueAa@CQUc@DCAKEKEGCWI_@o@MCQIWMGCACe@WEE"
+                            },
+                            "start_location": {
+                                "lat": 48.1507052,
+                                "lng": 11.5816067
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 226
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 167
+                            },
+                            "end_location": {
+                                "lat": 48.1516877,
+                                "lng": 11.5853902
+                            },
+                            "html_instructions": "Turn <b>right</b> onto <b>Schackstra\u00dfe</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "_v{dHceueABSBQBQ@EBSHo@D_@Hk@E]Ho@@ULWJoA@WGCNmBFm@"
+                            },
+                            "start_location": {
+                                "lat": 48.1521577,
+                                "lng": 11.5824195
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.7 km",
+                                "value": 744
+                            },
+                            "duration": {
+                                "text": "9 mins",
+                                "value": 535
+                            },
+                            "end_location": {
+                                "lat": 48.1574843,
+                                "lng": 11.5894519
+                            },
+                            "html_instructions": "Turn <b>left</b> onto <b>K\u00f6niginstra\u00dfe</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "as{dHuwueAWIEAYWAAGCGGKIIGEIa@g@SUWo@Uo@ISg@yAa@gAEKOYOWCA_@QQEEAMCc@QAAoAe@SIa@SYIUIQGs@UMGYIa@K_@KUGE@oAUi@KSGGAGAoC_@E?CACCACKOEI"
+                            },
+                            "start_location": {
+                                "lat": 48.1516877,
+                                "lng": 11.5853902
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.4 km",
+                                "value": 355
+                            },
+                            "duration": {
+                                "text": "4 mins",
+                                "value": 254
+                            },
+                            "end_location": {
+                                "lat": 48.1600295,
+                                "lng": 11.5919279
+                            },
+                            "html_instructions": "Continue onto <b>Mandlstra\u00dfe</b>",
+                            "polyline": {
+                                "points": "gw|dHaqveAGUEKSg@AC_@s@{@qBISEGEEMIOKMIk@YoAq@y@a@u@_@oAk@"
+                            },
+                            "start_location": {
+                                "lat": 48.1574843,
+                                "lng": 11.5894519
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "90 m",
+                                "value": 90
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 64
+                            },
+                            "end_location": {
+                                "lat": 48.1606646,
+                                "lng": 11.5924983
+                            },
+                            "html_instructions": "<b>Mandlstra\u00dfe</b> turns slightly <b>right</b> and becomes <b>Biedersteiner Str.</b>",
+                            "polyline": {
+                                "points": "eg}dHq`weAKc@GKGKKKIGECSKUISEGA"
+                            },
+                            "start_location": {
+                                "lat": 48.1600295,
+                                "lng": 11.5919279
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 188
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 132
+                            },
+                            "end_location": {
+                                "lat": 48.1619023,
+                                "lng": 11.5939181
+                            },
+                            "html_instructions": "Turn <b>right</b> onto <b>Keferstra\u00dfe</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "ck}dHcdweAFc@ISAA?ACAIEGECCUQCCKKQSIISQ_@[GIs@m@KISSGI"
+                            },
+                            "start_location": {
+                                "lat": 48.1606646,
+                                "lng": 11.5924983
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 201
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 146
+                            },
+                            "end_location": {
+                                "lat": 48.1627374,
+                                "lng": 11.5959327
+                            },
+                            "html_instructions": "Turn <b>right</b> onto <b>Liebergesellstra\u00dfe</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "{r}dH_mweAN[LYBK@G@G?GAG?GAECEEKYg@]i@cA_Be@s@]i@"
+                            },
+                            "start_location": {
+                                "lat": 48.1619023,
+                                "lng": 11.5939181
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "11 m",
+                                "value": 11
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 8
+                            },
+                            "end_location": {
+                                "lat": 48.16284419999999,
+                                "lng": 11.596002
+                            },
+                            "html_instructions": "Slight <b>left</b> onto <b>Jungwirthstra\u00dfe</b>",
+                            "maneuver": "turn-slight-left",
+                            "polyline": {
+                                "points": "cx}dHqyweAEECCCAAAC?"
+                            },
+                            "start_location": {
+                                "lat": 48.1627374,
+                                "lng": 11.5959327
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.1 km",
+                                "value": 116
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 83
+                            },
+                            "end_location": {
+                                "lat": 48.1633285,
+                                "lng": 11.5973458
+                            },
+                            "html_instructions": "Turn <b>right</b> toward <b>Osterwaldstra\u00dfe</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "wx}dH_zweACMOs@[eAYeAW_A"
+                            },
+                            "start_location": {
+                                "lat": 48.16284419999999,
+                                "lng": 11.596002
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "9 m",
+                                "value": 9
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 7
+                            },
+                            "end_location": {
+                                "lat": 48.1633114,
+                                "lng": 11.5973855
+                            },
+                            "html_instructions": "Turn <b>right</b> toward <b>Osterwaldstra\u00dfe</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "y{}dHmbxeABG"
+                            },
+                            "start_location": {
+                                "lat": 48.1633285,
+                                "lng": 11.5973458
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.8 km",
+                                "value": 1761
+                            },
+                            "duration": {
+                                "text": "21 mins",
+                                "value": 1284
+                            },
+                            "end_location": {
+                                "lat": 48.1770225,
+                                "lng": 11.608743
+                            },
+                            "html_instructions": "Turn <b>left</b> onto <b>Osterwaldstra\u00dfe</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "u{}dHubxeAcAw@SM_@[USKQq@i@WSq@g@MIGEOVACKIJOOGi@c@iA{@KICCWScA{@MIe@_@MCGEuBeBIOwAkAo@i@iA_AKOEC}AmAIGIGIGMKGEJ_@OIc@]IGGGECUEq@g@EOmAcAEEg@]QOiAeAOIyAwAGGCCMOMMEEQMKISQKIEIAECGCEEECACEGEEAGAI?MIQOaAs@AA?GAE?CAACCAAECCAA?A?C?E?A?w@o@u@m@EC}@q@y@q@CKCKEGGCIEE?C@C?A?ECm@g@MSGCy@s@QKOKGICGCEEECAAAGAGAK?GEUQcAw@s@i@AA?AAC?GCEAECCMGIEG?E?A?QGA?GCo@UGCEAE?E?G@G@IJ"
+                            },
+                            "start_location": {
+                                "lat": 48.1633114,
+                                "lng": 11.5973855
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 174
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 138
+                            },
+                            "end_location": {
+                                "lat": 48.1780033,
+                                "lng": 11.6104899
+                            },
+                            "html_instructions": "Turn <b>right</b> to stay on <b>Osterwaldstra\u00dfe</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "kq`eHsizeACICISm@IUIUKSWc@MUWg@Wg@Wg@Yi@"
+                            },
+                            "start_location": {
+                                "lat": 48.1770225,
+                                "lng": 11.608743
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "29 m",
+                                "value": 29
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 19
+                            },
+                            "end_location": {
+                                "lat": 48.1781659,
+                                "lng": 11.6101819
+                            },
+                            "html_instructions": "Turn <b>left</b> to stay on <b>Osterwaldstra\u00dfe</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "ow`eHqtzeAa@|@"
+                            },
+                            "start_location": {
+                                "lat": 48.1780033,
+                                "lng": 11.6104899
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.1 km",
+                                "value": 149
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 108
+                            },
+                            "end_location": {
+                                "lat": 48.1793476,
+                                "lng": 11.6111306
+                            },
+                            "html_instructions": "Turn <b>right</b> to stay on <b>Osterwaldstra\u00dfe</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "qx`eHsrzeAi@YWOOKMKMMWUOQ[UOMi@a@"
+                            },
+                            "start_location": {
+                                "lat": 48.1781659,
+                                "lng": 11.6101819
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.3 km",
+                                "value": 260
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 203
+                            },
+                            "end_location": {
+                                "lat": 48.180401,
+                                "lng": 11.6142141
+                            },
+                            "html_instructions": "Slight <b>right</b>",
+                            "maneuver": "turn-slight-right",
+                            "polyline": {
+                                "points": "}_aeHqxzeA]q@GMIO?AEOEMCOCKEOEUCMEe@AGEm@CSASAIAACSESAGCIEMIUIUKYISGS?CEOCMG[EWEK"
+                            },
+                            "start_location": {
+                                "lat": 48.1793476,
+                                "lng": 11.6111306
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.3 km",
+                                "value": 298
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 209
+                            },
+                            "end_location": {
+                                "lat": 48.1826775,
+                                "lng": 11.6161344
+                            },
+                            "html_instructions": "Slight <b>left</b>",
+                            "maneuver": "turn-slight-left",
+                            "polyline": {
+                                "points": "ofaeHyk{eAIEKGKG]UWg@KUIMGIGKIKECEEMKIG_@YCCOGMG?A]IOC_@ESCQI_@UIOGKGKIKMQSY"
+                            },
+                            "start_location": {
+                                "lat": 48.180401,
+                                "lng": 11.6142141
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.4 km",
+                                "value": 378
+                            },
+                            "duration": {
+                                "text": "5 mins",
+                                "value": 286
+                            },
+                            "end_location": {
+                                "lat": 48.1849196,
+                                "lng": 11.6192442
+                            },
+                            "html_instructions": "Turn <b>left</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "wtaeHyw{eASHKDM@OAGAWIm@[QMKGCCYWw@w@MKQOKKOQ?AMOKSUk@Sk@Qq@Mm@CMGe@CQG{@GqA"
+                            },
+                            "start_location": {
+                                "lat": 48.1826775,
+                                "lng": 11.6161344
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.6 km",
+                                "value": 1575
+                            },
+                            "duration": {
+                                "text": "19 mins",
+                                "value": 1127
+                            },
+                            "end_location": {
+                                "lat": 48.1972233,
+                                "lng": 11.6298031
+                            },
+                            "html_instructions": "Turn <b>left</b> onto <b>Sondermeierstra\u00dfe</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "wbbeHgk|eA]]IMMOIM[W_@WCAy@s@CC[WACGEIAIIs@k@SQKG_@Y]YOKMCs@m@k@i@KKoAaAgDoCqAcAYUQO_@YqAgAIIgBsAQMECCCEGMMEEKKKIMKGEkB}A]YmAcASMmAcA_@[OMSOOKQOm@g@[WqBaBKIKIMIOGECuCaCm@i@u@k@_@[OMMKOM_BqA_Aw@o@g@MKCEAAAACE"
+                            },
+                            "start_location": {
+                                "lat": 48.1849196,
+                                "lng": 11.6192442
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "5 m",
+                                "value": 5
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 3
+                            },
+                            "end_location": {
+                                "lat": 48.1971976,
+                                "lng": 11.6299589
+                            },
+                            "html_instructions": "Turn <b>right</b> toward <b>Sondermeierstra\u00dfe</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "sodeHgm~eAAKDS"
+                            },
+                            "start_location": {
+                                "lat": 48.1972233,
+                                "lng": 11.6298031
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "71 m",
+                                "value": 71
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 56
+                            },
+                            "end_location": {
+                                "lat": 48.1977522,
+                                "lng": 11.6303935
+                            },
+                            "html_instructions": "Turn <b>left</b> onto <b>Sondermeierstra\u00dfe</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "oodeHgn~eAGE_As@YUKE"
+                            },
+                            "start_location": {
+                                "lat": 48.1971976,
+                                "lng": 11.6299589
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 202
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 207
+                            },
+                            "end_location": {
+                                "lat": 48.19727959999999,
+                                "lng": 11.6325513
+                            },
+                            "html_instructions": "Turn <b>right</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "}rdeH}p~eA?E?C@A?A@C@A@C@CBCDIJWLe@BIJe@Vq@NY@A?A?C?EAE?CAEACACCEGOACAAAAECMKAA?AAC?G@C@ERy@Nc@"
+                            },
+                            "start_location": {
+                                "lat": 48.1977522,
+                                "lng": 11.6303935
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.4 km",
+                                "value": 1413
+                            },
+                            "duration": {
+                                "text": "17 mins",
+                                "value": 1019
+                            },
+                            "end_location": {
+                                "lat": 48.2071605,
+                                "lng": 11.643057
+                            },
+                            "html_instructions": "Turn <b>left</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "_pdeHm~~eAIKSQIKEESUSWa@u@GGMEKAEAWAEAG?[AC?WGGAOG_@QQOCCQOMOWUSQSOwAiAaAw@QOaAu@IGWQGGg@_@g@a@c@_@m@g@c@WKGGEKKMQQUCCSSCECCQKOKUMKGg@U]USKYOe@YOKKICAMGQE[GIAQCUCSGUIEAa@IICEAEAKEIEGGGGKMCEOKGQAA_@SUSEGEGGIGKCEACCICIMe@Ki@I[?E?CAE?CAEAICIAGGYEQGYEUEMG[I_@EMAIACGYI_@EWCOEWCKIc@CSAECEESCMEOGUK[KWKSAEAECGACAEACACACACCCACAACEACCMEIEKIQCEKMCAGCECCCCG"
+                            },
+                            "start_location": {
+                                "lat": 48.19727959999999,
+                                "lng": 11.6325513
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 220
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 167
+                            },
+                            "end_location": {
+                                "lat": 48.2075153,
+                                "lng": 11.6403394
+                            },
+                            "html_instructions": "Turn <b>left</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "wmfeHc`afAKJIJKNIJEDEFEF?@EFCFABADEHADA@CFCFAHAD?DAH?D?F?F?F@^@P@`@@FBl@Bt@Bt@?@FdA?Z"
+                            },
+                            "start_location": {
+                                "lat": 48.2071605,
+                                "lng": 11.643057
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.6 km",
+                                "value": 572
+                            },
+                            "duration": {
+                                "text": "7 mins",
+                                "value": 403
+                            },
+                            "end_location": {
+                                "lat": 48.2122275,
+                                "lng": 11.6431121
+                            },
+                            "html_instructions": "Turn <b>right</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "_pfeHco`fAEEEAEAAAGCa@M]OGESIMESG]Gi@MSKWKOGCAKEy@_@_Bo@IEy@c@IE{@m@YS_@UAA]UQMOGYKIEGEEIKOGMGIKKQOQKYO_@OUEQA"
+                            },
+                            "start_location": {
+                                "lat": 48.2075153,
+                                "lng": 11.6403394
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.3 km",
+                                "value": 262
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 192
+                            },
+                            "end_location": {
+                                "lat": 48.2139757,
+                                "lng": 11.6407621
+                            },
+                            "html_instructions": "Turn <b>left</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "mmgeHm`afAUb@{@pAqAlBeAbBS\\EDYd@INQPCD_@Z"
+                            },
+                            "start_location": {
+                                "lat": 48.2122275,
+                                "lng": 11.6431121
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 162
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 123
+                            },
+                            "end_location": {
+                                "lat": 48.2151592,
+                                "lng": 11.6418357
+                            },
+                            "html_instructions": "Turn <b>right</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "kxgeHwq`fAWg@Ug@A?O[EK?AMSEMAACAECC?G?IGEAGGIGECECEAGCICQAOAKAEA"
+                            },
+                            "start_location": {
+                                "lat": 48.2139757,
+                                "lng": 11.6407621
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.1 km",
+                                "value": 100
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 78
+                            },
+                            "end_location": {
+                                "lat": 48.2159284,
+                                "lng": 11.6412915
+                            },
+                            "html_instructions": "Turn <b>left</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "w_heHox`fAQ`@EFEHEDOREDEBEDEBC@C@A?SFEBG@E?G?GAKC"
+                            },
+                            "start_location": {
+                                "lat": 48.2151592,
+                                "lng": 11.6418357
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.6 km",
+                                "value": 597
+                            },
+                            "duration": {
+                                "text": "7 mins",
+                                "value": 422
+                            },
+                            "end_location": {
+                                "lat": 48.2202394,
+                                "lng": 11.642221
+                            },
+                            "html_instructions": "Turn <b>left</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "qdheHau`fACNE`@E^Gt@Iz@CHAHEDEDEBE?CAGCKCQOQOaC_CECI?GAIBKDm@PQHMLGDABEDA@E@G@GAKAYIw@]_@Qg@Wc@MGCIGEEGGe@q@W_@QYOUIIMIKGo@U]I"
+                            },
+                            "start_location": {
+                                "lat": 48.2159284,
+                                "lng": 11.6412915
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 153
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 127
+                            },
+                            "end_location": {
+                                "lat": 48.220932,
+                                "lng": 11.6404607
+                            },
+                            "html_instructions": "Turn <b>left</b> onto <b>Wagrainweg</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "o_ieH{z`fAC^ANCVCJ?@A??BENIX?@ELk@xAKZA?ITEJCHCHQ^"
+                            },
+                            "start_location": {
+                                "lat": 48.2202394,
+                                "lng": 11.642221
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.9 km",
+                                "value": 877
+                            },
+                            "duration": {
+                                "text": "10 mins",
+                                "value": 627
+                            },
+                            "end_location": {
+                                "lat": 48.2281414,
+                                "lng": 11.6448364
+                            },
+                            "html_instructions": "Turn <b>right</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "ycieH{o`fAMMKGA?GEMGk@YWKIEWMIEw@a@aAe@a@SKEUMIEa@SUKKE?AWMGCUKKGaAi@cAi@]SA?a@Sc@U]Sa@S]QKGGGIGCCECEKCCAECKGQCEACEGCEECcB_AYSa@UKGw@k@]O?AUKKEKCEAE?G?G?G?YFG?I?E?CACA[QgAq@CAECE?C?E@EB"
+                            },
+                            "start_location": {
+                                "lat": 48.220932,
+                                "lng": 11.6404607
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "19 m",
+                                "value": 19
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 13
+                            },
+                            "end_location": {
+                                "lat": 48.22820429999999,
+                                "lng": 11.6446019
+                            },
+                            "html_instructions": "Turn <b>left</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "{pjeHgkafAKn@"
+                            },
+                            "start_location": {
+                                "lat": 48.2281414,
+                                "lng": 11.6448364
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.8 km",
+                                "value": 776
+                            },
+                            "duration": {
+                                "text": "9 mins",
+                                "value": 556
+                            },
+                            "end_location": {
+                                "lat": 48.2346529,
+                                "lng": 11.6485603
+                            },
+                            "html_instructions": "Turn <b>right</b> at <b>Triebgasse</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "gqjeHwiafA}@k@{WwNaAi@eE}BeAk@c@Qc@IYC"
+                            },
+                            "start_location": {
+                                "lat": 48.22820429999999,
+                                "lng": 11.6446019
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.3 km",
+                                "value": 257
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 188
+                            },
+                            "end_location": {
+                                "lat": 48.235651,
+                                "lng": 11.6478883
+                            },
+                            "html_instructions": "Turn <b>right</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "qykeHobbfA?Q?Q?W@w@?]AOCMEMIKUEIAE@E?IBIBGFEDGHEHABCJIb@Op@[bBUlAER"
+                            },
+                            "start_location": {
+                                "lat": 48.2346529,
+                                "lng": 11.6485603
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.7 km",
+                                "value": 664
+                            },
+                            "duration": {
+                                "text": "8 mins",
+                                "value": 478
+                            },
+                            "end_location": {
+                                "lat": 48.2410327,
+                                "lng": 11.6514327
+                            },
+                            "html_instructions": "Turn <b>right</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "y_leHi~afAe@e@kIeIUSGGUUa@a@c@Ya@W_@U{@k@a@Sa@OOEe@Ma@GWEe@Ga@IKCcAQa@Ic@Iw@M"
+                            },
+                            "start_location": {
+                                "lat": 48.235651,
+                                "lng": 11.6478883
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.7 km",
+                                "value": 735
+                            },
+                            "duration": {
+                                "text": "9 mins",
+                                "value": 542
+                            },
+                            "end_location": {
+                                "lat": 48.2473913,
+                                "lng": 11.6500546
+                            },
+                            "html_instructions": "Continue onto <b>Auweg</b>",
+                            "polyline": {
+                                "points": "mameHmtbfAKAOAW@y@PgALs@Hi@@oCJ{@@c@@c@?K?W?q@?}ACoACk@F_AFYBi@@I@_@BG?]?YBSDYHQNST]f@m@bAQ^"
+                            },
+                            "start_location": {
+                                "lat": 48.2410327,
+                                "lng": 11.6514327
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.3 km",
+                                "value": 344
+                            },
+                            "duration": {
+                                "text": "4 mins",
+                                "value": 252
+                            },
+                            "end_location": {
+                                "lat": 48.2496069,
+                                "lng": 11.6529675
+                            },
+                            "html_instructions": "Turn <b>right</b> onto <b>M\u00fcnchener Str.</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "eineHykbfA_@m@]g@e@i@]][WEAc@Sk@Qk@QKIGCEGGGEIEGEKGOEMKYIc@SaAOw@ESCMCECIEGGK"
+                            },
+                            "start_location": {
+                                "lat": 48.2473913,
+                                "lng": 11.6500546
+                            },
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "52 m",
+                                "value": 52
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 41
+                            },
+                            "end_location": {
+                                "lat": 48.2491675,
+                                "lng": 11.6531362
+                            },
+                            "html_instructions": "Turn <b>right</b> onto <b>B\u00fcrgermeister-Amon-Stra\u00dfe</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "awneHa~bfAd@[p@E"
+                            },
+                            "start_location": {
+                                "lat": 48.2496069,
+                                "lng": 11.6529675
+                            },
+                            "travel_mode": "WALKING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "mqydHiyqeA\\RVmAb@eBDk@?MCI@y@FwCGs@M]Uu@e@q@k@}@Kg@]Oc@o@IU]uAu@sDG[GUEBGY?Gq@cD_AeEQe@W_@KKH[H_@Fc@?GUM]K]OELME]MYKu@W{@_@Y_@a@OMD_Bs@MKEa@AUAoBWqJd@uEg@Q@GsBo@w@]mAc@ESL}@[I}Am@wEcBkAg@{@UeC_A_Ac@yAc@k@_@a@CQUg@Bw@Y_@o@MCi@Wu@e@L}@\\oCE]Ho@Nm@LgBGCNmBFm@WI_@Y]WeAoA_BmEgAeC_EyAsEaBsFiAaDc@QWg@sAgB}Di@c@cEwBeCkASo@c@c@eA]Fc@ISACYQw@u@aDwCb@iA?_@e@_AeDgFOMs@gCq@eCBGcAw@s@i@a@e@iCoBGEOVMMJOOGsB_BkB}As@i@UI_CuBgCuByDaDk@c@GEJ_@s@g@m@Yq@g@EOsAiAsC}BeD_Dg@k@QUYOWIsAcACOGKMEI?y@o@sDuCGWMKWCGC{@{@cBoAU]UGSEyAiAw@q@IWWMM?]KcA[M@QLe@wA{@cBaBaDa@|@i@Yg@[cAaAk@c@i@a@]q@Q]EQI]e@oDUyAw@_CWqAOQWO]UWg@Uc@_@e@_BiAaBWq@_@Q[s@cA_@N]?_Bu@aB{A{@y@o@qAs@kCWaCGqA]]W]iA_A{AsAoA}@}AmA]O_BwAuIaH}CgCiCoB]_@yGqF}FyEqJwHsIaHUUEQDSGEyAiAKKBKh@uANo@f@kA@MUq@[[VkANc@IK]]Y[u@mAg@QaAEs@QgAu@mAgA_IiG}CaCm@k@m@s@{@i@aE_C_AWeAQgAYa@O[]]e@{@o@Yc@m@mCYwAcBsIu@gC[y@Ui@Ym@]WGKUVa@h@[r@Op@FxBJzCF`BKGq@UgAe@oBi@w@[}EyB_C}AaAm@q@a@g@s@}A{@g@GqAtBqDtFy@lA_@ZWg@Wg@c@}@QU[I]Wi@K[CW^a@j@WR]J[DSEIp@[zCSX]IkDcDg@F_AZUROLu@KcDuA_@Y_BaCWS{@]]IC^Ef@EPUx@qAjDQ^MMMGyAs@iFiC{JeFeCyAc@eAkGwDm@W[As@Fi@UwAw@I@Qr@ab@kUiB}@}@M@sBKiA_@QO?a@NU\\y@dE[`BqJkJuAsAaDsByBw@wGiAcAOg@?aC^}AJsGNsDC{BByAJ{AFw@Bm@Ne@d@kAjBQ^_@m@cAqAy@u@i@UkBq@Ya@_@cAs@qDQe@GKd@[p@E"
+            },
+            "summary": "Osterwaldstra\u00dfe",
+            "warnings": [
+                "Walking directions are in beta. Use caution \u2013 This route may be missing sidewalks or pedestrian paths."
+            ],
+            "waypoint_order": []
+        }
+    ],
+    "status": "OK"
+}
