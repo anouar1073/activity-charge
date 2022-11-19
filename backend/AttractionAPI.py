@@ -41,3 +41,9 @@ def get_attractions(latitude: int, longitude: int):
         attractionList.append(attraction)
 
     print(attractionList)
+
+
+if __name__ == "__main__":
+    latitude = "48.137154" 
+    longitude = "11.576124"
+    get_attractions(latitude=latitude, longitude=longitude)
