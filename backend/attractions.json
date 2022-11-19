@@ -1,0 +1,1037 @@
+{
+    "html_attributions": [],
+    "next_page_token": "AW30NDy-qIeZ7dPbhnQH9CKAX66BueHGLTHVFgrEIkKKvjyeyiohGmpvXctT3-LPk9YJdY_VE4mxXEQu-zgZBiH6bRY44xMF9ekdnTENwkQAj9OzPWYx82lURaCqOCVLU3W1bTczmYCCwewR8Ixfnlk37uIFQizFXk4AAbBKuOfiUwqP3WIczQtbQzHv5SKDA6wRYn4ZUuvzVSxsWHZuHHr7kIL14LvCBs5KwEMLalLHoqwahDWDxUvDicg-4mZVZkP4w_uVSUzswikHzWx1R--xlVMZ1bSUOgZiU2k5Uygpt3hxJR0sZ-b0D_30-B5ceEJgO8QTxYPdaD3RFpLRdTHXSAEFsXelWdRaqxWRTjShw8xq3FJ3HcaU7Sp5yIVjxKIMuCfr48cFRDKvp7VsUjCqKVFYWsjKz4HchtRhkHpp1CfvQK6BPSnvFEbLP5O1VNEuBaGP960",
+    "results": [
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": {
+                    "lat": 48.14127879999999,
+                    "lng": 11.565233
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.14262778029148,
+                        "lng": 11.5665819802915
+                    },
+                    "southwest": {
+                        "lat": 48.13992981970848,
+                        "lng": 11.5638840197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+            "icon_background_color": "#4DB546",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+            "name": "Neptunbrunnen",
+            "permanently_closed": true,
+            "photos": [
+                {
+                    "height": 4624,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100518327918718056193\">Nagendra Korapolu</a>"
+                    ],
+                    "photo_reference": "AW30NDy-Ttyxcgy9jAMT8MExiThPcoClTa-RPsPiMGhzagtY6WbIWJaDabYKqGl0G7xlEyvkvUValmk1qRDiAmcRqGd_dERawPq7_XlfyU6YmsOmL7I3ePDXN86dZr0vUKcBBBSHFl2fqbEY-7wBxrjjbCqbjLROolOvtCwto9y4UoJPx4VK",
+                    "width": 3468
+                }
+            ],
+            "place_id": "ChIJi-G-yfB1nkcRYzXiSdcGXKk",
+            "plus_code": {
+                "compound_code": "4HR8+G3 Munich, Germany",
+                "global_code": "8FWH4HR8+G3"
+            },
+            "rating": 4.3,
+            "reference": "ChIJi-G-yfB1nkcRYzXiSdcGXKk",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 575,
+            "vicinity": "Germany"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.13237830000001,
+                    "lng": 11.5865944
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.1335394302915,
+                        "lng": 11.5875236302915
+                    },
+                    "southwest": {
+                        "lat": 48.1308414697085,
+                        "lng": 11.5848256697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+            "icon_background_color": "#4DB546",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+            "name": "Rhein-Brunnen Fountain",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3488,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116403290535719009103\">Carlos Manuel \u201cCap&amp;Cap\u201d Alves Prida</a>"
+                    ],
+                    "photo_reference": "AW30NDzFcg61QIJ24r-Yisuo3hVaXFWdud4HyU1D3yBZ206tmaV6TdS63p2AVdA-pWTziPKl87-3o-6c5_UyUMlpJS9sDWaqGN2ZjwbIYjlkss5cVk-BoAanjmIuAJpW5wQfMj5Fb3oV_Lxy8O_hm8g6JNXcSnJ9mYtGeeP6NuxzUrpx63Go",
+                    "width": 4640
+                }
+            ],
+            "place_id": "ChIJby2NSX3fnUcRVjsX-NhguXY",
+            "plus_code": {
+                "compound_code": "4HJP+XJ Munich, Germany",
+                "global_code": "8FWH4HJP+XJ"
+            },
+            "rating": 4.4,
+            "reference": "ChIJby2NSX3fnUcRVjsX-NhguXY",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 672,
+            "vicinity": "Auf der Insel, M\u00fcnchen"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.1472299,
+                    "lng": 11.5737519
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.14855438029149,
+                        "lng": 11.5751860802915
+                    },
+                    "southwest": {
+                        "lat": 48.1458564197085,
+                        "lng": 11.5724881197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Turkish Gate",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3264,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109483935453838044175\">Yoko Y.</a>"
+                    ],
+                    "photo_reference": "AW30NDwcEJVHxLWQv9KfnUDp3lTgSm3XErei2eIUiU9X0G93IwrEGQX0UdikBtwnPWy_Drn3BMMDDfCC8BjOPtm_bO0JdNbhlSJDM-vUOZqbxh6BVHnSQu5V10ns51lb7BjUSYbqDkbDhTtyrRCA5KvIogjZ_4QzBfrELQpjK7u-ea9KO7YE",
+                    "width": 1468
+                }
+            ],
+            "place_id": "ChIJ9SuDR-x1nkcRHEtTL3Mb5jQ",
+            "plus_code": {
+                "compound_code": "4HWF+VG Munich, Germany",
+                "global_code": "8FWH4HWF+VG"
+            },
+            "rating": 3.8,
+            "reference": "ChIJ9SuDR-x1nkcRHEtTL3Mb5jQ",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 26,
+            "vicinity": "T\u00fcrkenstra\u00dfe 17, M\u00fcnchen"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.1376098,
+                    "lng": 11.5799253
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.1389888302915,
+                        "lng": 11.5811348302915
+                    },
+                    "southwest": {
+                        "lat": 48.1362908697085,
+                        "lng": 11.5784368697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Hofbr\u00e4uhaus M\u00fcnchen",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2252,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106312240035316430954\">Yuanjian Chen</a>"
+                    ],
+                    "photo_reference": "AW30NDxfuJSSLDzOeFrqa6_agL0H3TPR2XzDbo4NsRh_OFIlLGG3DbF_9JDbPoFR5r3HIomhsM5o1HH4uckMw_pKcXtFDdJwfCLgEYQ_keKn10i_QcxUK907xzquKuAuw1LH48tNwz92McDCwdXcQCsHX4QZoX8j8Lk61LGM65Kf4ccfnwGP",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJxfxSz4t1nkcRLxq9ze1wwak",
+            "plus_code": {
+                "compound_code": "4HQH+2X Munich, Germany",
+                "global_code": "8FWH4HQH+2X"
+            },
+            "price_level": 2,
+            "rating": 4.3,
+            "reference": "ChIJxfxSz4t1nkcRLxq9ze1wwak",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "tourist_attraction",
+                "bar",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 69824,
+            "vicinity": "Platzl 9, M\u00fcnchen"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.1298707,
+                    "lng": 11.5834522
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.1329787,
+                        "lng": 11.5875438
+                    },
+                    "southwest": {
+                        "lat": 48.1282303,
+                        "lng": 11.581631
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet",
+            "name": "Deutsches Museum",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108216296887577720293\">Norbert Schr\u00f6der-Vorwerk</a>"
+                    ],
+                    "photo_reference": "AW30NDz8IMhlBFvfXySn1f1HuhmxhoBxxW6I2E8AolROiIId8Lz4Pg1FV2sp60fbSEY2AtixUf6XdVGN4rMoxLPz52i16x_HVzpnmCi8oS934zZlAvBe53FgPkVd1n9oletxrKRaGSid3sFqkaanXXa612k6q9Tqi9iYXqS7tIndeewz31Pq",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ01CaE2PfnUcRUpb8Ylg-UXo",
+            "plus_code": {
+                "compound_code": "4HHM+W9 Munich, Germany",
+                "global_code": "8FWH4HHM+W9"
+            },
+            "rating": 4.5,
+            "reference": "ChIJ01CaE2PfnUcRUpb8Ylg-UXo",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "museum",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 28061,
+            "vicinity": "Museumsinsel 1, M\u00fcnchen"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.1440874,
+                    "lng": 11.5859424
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.14522978029149,
+                        "lng": 11.58885395
+                    },
+                    "southwest": {
+                        "lat": 48.14253181970849,
+                        "lng": 11.58333655
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet",
+            "name": "Haus der Kunst",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1153,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109246866530010471808\">Haus der Kunst</a>"
+                    ],
+                    "photo_reference": "AW30NDzdwNsEj-J87FX1-ksYqFyqbuIAFdg5UCsdKU1gkkn_evD7fCN-u0oDxJnbUyAKvtLP14hRX_384VRZG5nnHw1DeRtlw1HezmlnAUH4hqVjlCUCmeEY_59f6028B1LuR36C_vUNXyPuNhEWwrb401ARfcTo9Jkj8_7U9rC_aNtibyGb",
+                    "width": 2048
+                }
+            ],
+            "place_id": "ChIJ6S4O1pF1nkcRq1FqjecOHZU",
+            "plus_code": {
+                "compound_code": "4HVP+J9 Munich, Germany",
+                "global_code": "8FWH4HVP+J9"
+            },
+            "rating": 4.4,
+            "reference": "ChIJ6S4O1pF1nkcRq1FqjecOHZU",
+            "scope": "GOOGLE",
+            "types": [
+                "museum",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2679,
+            "vicinity": "Prinzregentenstra\u00dfe 1, M\u00fcnchen"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.1417978,
+                    "lng": 11.579486
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.14341899999999,
+                        "lng": 11.58064765
+                    },
+                    "southwest": {
+                        "lat": 48.1380966,
+                        "lng": 11.57640585
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Munich Residenz",
+            "photos": [
+                {
+                    "height": 1380,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108761173148926874187\">Hakan \u00d6zalp</a>"
+                    ],
+                    "photo_reference": "AW30NDwbhu_9P5tcBRuR-zzqxO1Cksvr2Nj2wnappbdUF32--wIzgpi_J7d0wvoV-7N3BGhOtbl77Yl4HH9Xf4NZa9DxeUrE0TSGDZBG2OqbaowenQDro4XRe7RzrK9kOK8GgO-Vnvn01f7bOJtblJVYn_ZzQWB0cxgQle0_KPkiKHgRi-7X",
+                    "width": 2048
+                }
+            ],
+            "place_id": "ChIJrWV_DYx1nkcRD_tKgCHVad4",
+            "plus_code": {
+                "compound_code": "4HRH+PQ Munich, Germany",
+                "global_code": "8FWH4HRH+PQ"
+            },
+            "rating": 4.6,
+            "reference": "ChIJrWV_DYx1nkcRD_tKgCHVad4",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "museum",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 11719,
+            "vicinity": "Residenzstra\u00dfe 1, M\u00fcnchen"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.1471559,
+                    "lng": 11.5723021
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.1484480302915,
+                        "lng": 11.5730605802915
+                    },
+                    "southwest": {
+                        "lat": 48.1457500697085,
+                        "lng": 11.5703626197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet",
+            "name": "Pinakothek der Moderne",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114017850669684493723\">Umme Salma Rahman (Tania)</a>"
+                    ],
+                    "photo_reference": "AW30NDznFZf67fr4MMuMO_0qyae9MB2gQyJWL634CVun4fIvmwjjb8xdtgwCIwzhoNTFYVGrqTA6JJ1lWlwpVUUmZ5rxrFt8EoGbMzK4SX4glihY7PpnsffoHnPRua497_QhdjPls21CDdkmXA_dTGyTCuF_pjfwepj_CItpiVpSHwrwBWiu",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJW8LuYO51nkcRZqoW2f9yn8c",
+            "plus_code": {
+                "compound_code": "4HWC+VW Munich, Germany",
+                "global_code": "8FWH4HWC+VW"
+            },
+            "rating": 4.5,
+            "reference": "ChIJW8LuYO51nkcRZqoW2f9yn8c",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "art_gallery",
+                "museum",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 6316,
+            "vicinity": "Barer Stra\u00dfe 40, M\u00fcnchen"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.13863099999999,
+                    "lng": 11.5736254
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.14015878029149,
+                        "lng": 11.5744703302915
+                    },
+                    "southwest": {
+                        "lat": 48.13746081970849,
+                        "lng": 11.5717723697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/worship_general-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/worship_christian_pinlet",
+            "name": "Frauenkirche",
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102881795168880310447\">Janet Foley</a>"
+                    ],
+                    "photo_reference": "AW30NDyB8S06X66GsCYDAjUxcxQiuEucs9DWHeywWlFWEEkXiigl7Cwmo9kZCke3qFWADXDbzyepE0HipzH9-EjQOMy-G_rTjDCenbCi_A2IgyuFS5lUibI3rkbGyEXPOqouR4141VeGoHB4y3S5L_HEe8V7Sy5ukXP2P0b55FgT-s-WW_az",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJl3iTk_R1nkcRWv8Z_6jCLAA",
+            "plus_code": {
+                "compound_code": "4HQF+FF Munich, Germany",
+                "global_code": "8FWH4HQF+FF"
+            },
+            "rating": 4.5,
+            "reference": "ChIJl3iTk_R1nkcRWv8Z_6jCLAA",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "church",
+                "place_of_worship",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 9530,
+            "vicinity": "Frauenplatz 12, M\u00fcnchen"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.1466818,
+                    "lng": 11.563985
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.1478775302915,
+                        "lng": 11.5649485302915
+                    },
+                    "southwest": {
+                        "lat": 48.1451795697085,
+                        "lng": 11.5622505697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet",
+            "name": "Lenbachhaus",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111270244542510986334\">Ricardo Mena Mu\u00f1oz</a>"
+                    ],
+                    "photo_reference": "AW30NDx24GaFsCAI_QxUBVG8ETYfepgipNZJWkF8jZnLDKSlD_8q_Hkwl94i6A1WTu03VAz_nMrhILMShddrF5Ta-HePHdDg4tdOw4epEpyYsdUylCH9hHaTcqliJti-KhqpEnoxNt2CJ85K3ePvRyWX64aGgf6gcEHdJZZyHR3e_NjjGzu2",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJD2wwR-V1nkcRCKM7kD249X8",
+            "plus_code": {
+                "compound_code": "4HW7+MH Munich, Germany",
+                "global_code": "8FWH4HW7+MH"
+            },
+            "rating": 4.7,
+            "reference": "ChIJD2wwR-V1nkcRCKM7kD249X8",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "museum",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2307,
+            "vicinity": "Luisenstra\u00dfe 33, M\u00fcnchen"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.14829129999999,
+                    "lng": 11.5699847
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.1496134302915,
+                        "lng": 11.57244175
+                    },
+                    "southwest": {
+                        "lat": 48.1469154697085,
+                        "lng": 11.56746875
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet",
+            "name": "Alte Pinakothek",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 4000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117664665804717655255\">P Knut</a>"
+                    ],
+                    "photo_reference": "AW30NDyWc4xxWqgt3GvlXU7GivyUiioekbXQt7j_t2LFTBePmYrFH-Isls0PDG_7MyBRZmsqqkljClkDZDv5BllWL9vWJxszBAZGjjdyCdpzYIWENmg0hIzcgQ-Ilkvhl2tI-kF2sOyQx_VIPB607WekDPVmfdo8xakw-FPYEHFZaWtYpm9p",
+                    "width": 6000
+                }
+            ],
+            "place_id": "ChIJ12nAjO51nkcRt8DRlE8kWIE",
+            "plus_code": {
+                "compound_code": "4HX9+8X Munich, Germany",
+                "global_code": "8FWH4HX9+8X"
+            },
+            "rating": 4.6,
+            "reference": "ChIJ12nAjO51nkcRt8DRlE8kWIE",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "museum",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 7340,
+            "vicinity": "Barer Stra\u00dfe 27, M\u00fcnchen"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.136491,
+                    "lng": 11.5760468
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.1378583802915,
+                        "lng": 11.5772946
+                    },
+                    "southwest": {
+                        "lat": 48.13516041970851,
+                        "lng": 11.5745542
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/worship_general-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/worship_christian_pinlet",
+            "name": "St. Peter's Church",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103615654560036595874\">Jack Kennedy</a>"
+                    ],
+                    "photo_reference": "AW30NDwR39mL9APuraIDQp_VtEJ3mHY19C69P8wD-Y2J7CtpdAP-XLmPwTV_V-qPJ-Lz0Y0RXprmsp0C6iKsc7ks35G-B7gfuzFuFPIdMhBkwVRzQH_JjuKSj7NwWjXxPR50-GLhMYF42TSYm349bQhyDt2Nt_YY0DrHdG-6Oz-rO_UC3sE",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJWf1sxYp1nkcRZ6zUjjDyka4",
+            "plus_code": {
+                "compound_code": "4HPG+HC Munich, Germany",
+                "global_code": "8FWH4HPG+HC"
+            },
+            "rating": 4.6,
+            "reference": "ChIJWf1sxYp1nkcRZ6zUjjDyka4",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "church",
+                "place_of_worship",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4055,
+            "vicinity": "Rindermarkt 1, M\u00fcnchen"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.1373363,
+                    "lng": 11.5761399
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.14036509999999,
+                        "lng": 11.5786798
+                    },
+                    "southwest": {
+                        "lat": 48.13520670000001,
+                        "lng": 11.571901
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/civic-bldg_pinlet",
+            "name": "New Town Hall",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100232960356820203079\">Lee Kim</a>"
+                    ],
+                    "photo_reference": "AW30NDxGM4JM_EpRcuducqdxPEN9CtMrD-1QvZAB0932Jtxuu4MBIe9cwsk8qVMgMKoTRFfB8PzdLw7S5DkjEtCr3AIX9cPYrZjaKepKiQWgsATvh3bcv2sYFF579gilUfJuSvlSot-RtgX1dVec1tWsbgkrc3cWLq-6DhRflxRd0R4bllaD",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ_0T5Jot1nkcRZ3kV_GGLAFE",
+            "plus_code": {
+                "compound_code": "4HPG+WF Munich, Germany",
+                "global_code": "8FWH4HPG+WF"
+            },
+            "rating": 4.7,
+            "reference": "ChIJ_0T5Jot1nkcRZ3kV_GGLAFE",
+            "scope": "GOOGLE",
+            "types": [
+                "city_hall",
+                "tourist_attraction",
+                "local_government_office",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1410,
+            "vicinity": "Marienplatz 8, M\u00fcnchen"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.1348581,
+                    "lng": 11.5734615
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.1359651302915,
+                        "lng": 11.5751621302915
+                    },
+                    "southwest": {
+                        "lat": 48.1332671697085,
+                        "lng": 11.5724641697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet",
+            "name": "Munich Stadtmuseum",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1417,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/118239656355459256814\">M\u00fcnchner Stadtmuseum</a>"
+                    ],
+                    "photo_reference": "AW30NDzFK3VVnwHJDz8cmVvLzE1Tt9AtN7KwaBE7NmVmYOI3u7UNN73D9FTEEZWl_3am2MXk9IGK-cZynaMgCDpifrOUyQdrbt5GN68CdSUpB05ROzueyDuObSQhyRJ7R2eu1LLA_qhzx-140sW5v9LU3joNdcLxWm2VC8o-A1RAz7K8pQq-",
+                    "width": 2126
+                }
+            ],
+            "place_id": "ChIJRfquil_fnUcRB_Ruz8t4cnE",
+            "plus_code": {
+                "compound_code": "4HMF+W9 Munich, Germany",
+                "global_code": "8FWH4HMF+W9"
+            },
+            "rating": 4.3,
+            "reference": "ChIJRfquil_fnUcRB_Ruz8t4cnE",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "museum",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1215,
+            "vicinity": "Sankt-Jakobs-Platz 1, M\u00fcnchen"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.1351607,
+                    "lng": 11.5696412
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.1363737302915,
+                        "lng": 11.5709324802915
+                    },
+                    "southwest": {
+                        "lat": 48.1336757697085,
+                        "lng": 11.5682345197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/worship_general-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/worship_christian_pinlet",
+            "name": "Asamkirche",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2971,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110887028856235802107\">Erik Meijerink</a>"
+                    ],
+                    "photo_reference": "AW30NDxtLTj8DrEkiQM3vmvO5UMQ7IlfZX2kDZuDf3glLbOobnHnGNvdr1ecjJO5pEJiYQZhW9EdxOUUJ-GbIvKdajFlEGO9vb-2n5Z04F06Fb3R3eHuky9MsOpdEn0g4lykqma-uoF081aePL3VzP--DH-HR7BotBL94v9RFQVDN2IsnqM",
+                    "width": 4456
+                }
+            ],
+            "place_id": "ChIJyaP7Y1_fnUcRQDvzvurW66U",
+            "plus_code": {
+                "compound_code": "4HP9+3V Munich, Germany",
+                "global_code": "8FWH4HP9+3V"
+            },
+            "rating": 4.7,
+            "reference": "ChIJyaP7Y1_fnUcRQDvzvurW66U",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "church",
+                "place_of_worship",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3594,
+            "vicinity": "Sendlinger Stra\u00dfe 32, M\u00fcnchen"
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": {
+                    "lat": 48.1498869,
+                    "lng": 11.5711139
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.1509398302915,
+                        "lng": 11.5722862302915
+                    },
+                    "southwest": {
+                        "lat": 48.14824186970851,
+                        "lng": 11.5695882697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet",
+            "name": "Neue Pinakothek",
+            "permanently_closed": true,
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100525789561924036368\">E. S.</a>"
+                    ],
+                    "photo_reference": "AW30NDwz5yJweQH6qExAR6q8r4HdzhjbozPjhVlLfHkEXx5SwNbYe1E7qniXlJqzkXEfzC58WAVw1wYeL0Q3TQVzl_9qyh7YN1nPK1s-pl2CCXFbaUl-kAoQ0OkBBmQc_NHeFul8V0Ij51EBAhsirjjLbRPzexCeTZYOfwJ7O8GPM0ADfFhM",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJpxwTuO51nkcRFd7xxn8IYpA",
+            "plus_code": {
+                "compound_code": "4HXC+XC Munich, Germany",
+                "global_code": "8FWH4HXC+XC"
+            },
+            "rating": 4.5,
+            "reference": "ChIJpxwTuO51nkcRFd7xxn8IYpA",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "museum",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1866,
+            "vicinity": "Barer Stra\u00dfe 29, M\u00fcnchen"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.1415265,
+                    "lng": 11.5583708
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.1429107802915,
+                        "lng": 11.5597363802915
+                    },
+                    "southwest": {
+                        "lat": 48.1402128197085,
+                        "lng": 11.5570384197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet",
+            "name": "Kindermuseum M\u00fcnchen",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3036,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104388609089559808728\">Matthias Scheja</a>"
+                    ],
+                    "photo_reference": "AW30NDx0tVsIRbvH_bEY49psJir4FSp-Vc_wmgAmnI901umvXPMmCrGPnK0nzJkPz9s7S7cTWtj7OChMmzjWv7WdsWw00s2CqRaeji6jJZlPINTTyqgLM_MHg1LVfXwed8hjR_TPcdjUcfk0dfXP0tLAZYwFoCfmqhWhkgdv8FX9y-Qrru0l",
+                    "width": 4048
+                }
+            ],
+            "place_id": "ChIJPSnkW_l1nkcRTT1lxQO7-PM",
+            "plus_code": {
+                "compound_code": "4HR5+J8 Munich, Germany",
+                "global_code": "8FWH4HR5+J8"
+            },
+            "rating": 4,
+            "reference": "ChIJPSnkW_l1nkcRTT1lxQO7-PM",
+            "scope": "GOOGLE",
+            "types": [
+                "museum",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 534,
+            "vicinity": "Arnulfstra\u00dfe 3, M\u00fcnchen"
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": {
+                    "lat": 48.1352911,
+                    "lng": 11.5802132
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.13649308029149,
+                        "lng": 11.5816258802915
+                    },
+                    "southwest": {
+                        "lat": 48.13379511970849,
+                        "lng": 11.5789279197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet",
+            "name": "Beer and Oktoberfest Museum",
+            "permanently_closed": true,
+            "photos": [
+                {
+                    "height": 4608,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116311298763051136539\">Anja Schmidt</a>"
+                    ],
+                    "photo_reference": "AW30NDxIr1NlsrU2nlgGELZYomyCUc-66JT48T9YaEyQIiXd4MOPgrwSoOYrgZoUu4wzoOyXkN8Onib4xnkMUVMmT2O4Jrmsd7KGxllBi6_pq5iTji64l6n2HzMIgUokbLZQdiFIHuw2QrdiOK3Ppe09V-axclbWnMMbH5aa4aGEvurJ-Nuf",
+                    "width": 3456
+                }
+            ],
+            "place_id": "ChIJ-88eGYp1nkcRpm2C9-efi7g",
+            "plus_code": {
+                "compound_code": "4HPJ+43 Munich, Germany",
+                "global_code": "8FWH4HPJ+43"
+            },
+            "rating": 4.1,
+            "reference": "ChIJ-88eGYp1nkcRpm2C9-efi7g",
+            "scope": "GOOGLE",
+            "types": [
+                "museum",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 809,
+            "vicinity": "Sterneckerstra\u00dfe 2, M\u00fcnchen"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.1417443,
+                    "lng": 11.5773413
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.1435713302915,
+                        "lng": 11.5788743802915
+                    },
+                    "southwest": {
+                        "lat": 48.1408733697085,
+                        "lng": 11.5761764197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/monument_pinlet",
+            "name": "Feldherrnhalle",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105958292621071164052\">abhimanyu madan</a>"
+                    ],
+                    "photo_reference": "AW30NDz1uyub5OChTroL0bQvzaGEIVeursqXt_PgOjXTwwEQVZGEIxlacR_u4MuNRCp5ad_u1TvTNVOlMxPdLIb7i2wwhKOahyID7MssfyE-XsBZfqshdH-cwJaxIl5qXT_ohixNhfIWNFwvd266-uy6OvOC4svrAWlL7uGFwEZfGTA9HGCh",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ6Xk20Yx1nkcRmEPmCI2hsCg",
+            "plus_code": {
+                "compound_code": "4HRG+MW Munich, Germany",
+                "global_code": "8FWH4HRG+MW"
+            },
+            "rating": 4.5,
+            "reference": "ChIJ6Xk20Yx1nkcRmEPmCI2hsCg",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 808,
+            "vicinity": "Residenzstra\u00dfe 1, M\u00fcnchen"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.1351143,
+                    "lng": 11.5762549
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.1362445802915,
+                        "lng": 11.5773079802915
+                    },
+                    "southwest": {
+                        "lat": 48.1335466197085,
+                        "lng": 11.5746100197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "Victuals Market",
+            "photos": [
+                {
+                    "height": 2268,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110242012295636893027\">John Abrahamson</a>"
+                    ],
+                    "photo_reference": "AW30NDzQl_1vOmbKi2fAjC1OimSJsosDyZSJzv5fRO9hz8FU0wp3fl2N9WvssyIj3jCGpUAvlNZyU37SnDGfVyO3b-5KUTt_93vmQfv8oTeo3qs5vkV_RNX6HqGq55gc4HfLkEn2IEn4B0tdX4cl-o-GB37f-wXYoAMeQYctul4iXALlvM8Z",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJF-xkv4p1nkcRwSyIRoms9ik",
+            "plus_code": {
+                "compound_code": "4HPG+2G Munich, Germany",
+                "global_code": "8FWH4HPG+2G"
+            },
+            "rating": 4.6,
+            "reference": "ChIJF-xkv4p1nkcRwSyIRoms9ik",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 53249,
+            "vicinity": "Viktualienmarkt 3, M\u00fcnchen"
+        }
+    ],
+    "status": "OK"
+}
