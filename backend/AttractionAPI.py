@@ -23,13 +23,16 @@ def get_attractions(latitude: int, longitude: int):
     with open('backend/attractions.json', 'w') as f:
         json.dump(responseDict, f, indent=4)
     
+    print(responseDict)
+    
     attractionList = []
-    for dict in responseDict.results:
+    for dict in responseDict["results"]:
         attraction = {
             "AttractionName": "test",
             "AttractionLocation": "test",
             "AttractionDescription": "test",
             "ChargerLocation": "test"
+            
             # attractionImageURL
             # proposedCharingTime
             # chargePercentAfterCharing

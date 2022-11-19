@@ -1,24 +1,12 @@
 from flask import Flask
-import request 
+import requests
 import json
+
+from backend.attractionAPI import get_attractions
 
 app = Flask(__name__)
 
 # Flask run
-
-class FeedEntry(): 
-    def __init__(self, attractionName: str, attractionLocation: tuple, attractionDescription: str, chargerLocation: tuple):
-        self.attractionName = attractionName
-        self.attractionLocation = attractionLocation
-        self.attractionDescription = attractionDescription
-        self.chargerLocation = chargerLocation
-
-        # attractionImageURL
-        # proposedCharingTime
-        # chargePercentAfterCharing
-        # moneySavedFromDoNotGetPenalty 
-
-
 
 def fetchChargingStation(latitude: float, longitude: float):
     params = {"latitude": 48.252954, "longitude": 11.656477, "countrycode": "DE", 
@@ -47,6 +35,14 @@ def get_feed(latitude: float, longitude: float):
     # 2. Get Chargers next to attraction
     # 3. Check if Charger is < 5 Min form attraction
     # 4. return feed
+
+    latitude = "48.137154" 
+    longitude = "11.576124"
+    attractionList = get_attractions(latitude=latitude, longitude=longitude)
+    # dsf
+
+    # list cleaner 
+
 
     return '<h1>Hello from Flask & Docker</h2>'
 
