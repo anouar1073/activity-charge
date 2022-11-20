@@ -1,0 +1,52 @@
+<div class="text-center">
+    <div>
+        <h1>Attractions:</h1>
+        <p>Rosenheim:<a href="http://127.0.0.1:5000/?lat=47.85712720&lng=12.11810470">(lat:47.85712720, lng:12.11810470)  </a>
+        Starnberg:<a href="http://127.0.0.1:5000/?lat=47.99971&lng=11.34222">(lat:47.99971  , lng:11.34222)  </a>
+        Wolfsburg: <a href="http://127.0.0.1:5000/?lat=52.427547&lng=10.780420">(lat:52.427547, lng:10.780420)</a></p>
+    </div>
+    
+
+    <div>
+        <hr>
+        {% for attraction in content1 %}
+        <table>
+            <tbody>
+            <tr>
+            <td>&nbsp;AttractionName</td>
+            <td>&nbsp;<b>{{attraction.AttractionName}}</b></td>
+            </tr>
+            <tr>
+            <td>&nbsp;AttractionDescription</td>
+            <td>&nbsp;{{attraction.AttractionDescription}}</td>
+            </tr>
+            <tr>
+            <td>&nbsp;AttractionLocationLat</td>
+            <td>&nbsp;{{attraction.AttractionLocationLat}}</td>
+            </tr>
+            <tr>
+            <td>&nbsp;AttractionLocationLng</td>
+            <td>&nbsp;{{attraction.AttractionLocationLng}}</td>
+            </tr>
+            <tr>
+            <td>&nbsp;AttractionImageURL</td>
+            <td>&nbsp;<a href="{{attraction.AttractionImageURL}}">Url</a> </td>
+            </tr>
+            <tr>
+                <td>&nbsp;ChargerLocationLat</td>
+                <td>&nbsp;{{attraction.ChargerLocationLat}}</td>
+            </tr>
+            <tr>
+                <td>&nbsp;ChargerLocationLng</td>
+                <td>&nbsp;{{attraction.ChargerLocationLng}}</td>
+            </tr>
+            <tr>
+                <td>&nbsp;Time in Seconds from Charger to Destination</td>
+                <td>&nbsp;{{attraction.WalkTimeSeconds}}</td>
+            </tr>
+            </tbody>
+            </table>
+            <hr>
+        {% endfor %}
+    </div>
+</div>
