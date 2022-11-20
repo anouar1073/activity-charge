@@ -7,9 +7,11 @@ import {
   SafeAreaView,
   Image,
   RefreshControl,
+  TextInput,
 } from "react-native";
 import { TouchableWithoutFeedback } from "react-native-gesture-handler";
 import routes from "./routes.js";
+import times from "./backend/tests/times.json";
 
 const wait = (timeout) => {
   return new Promise((resolve) => setTimeout(resolve, timeout));
@@ -19,7 +21,16 @@ export default function OurScreen({ navigation }) {
   const [refreshing, setRefreshing] = React.useState(false);
   const fetchData = async () => {
     console.log("fetching data...");
-    let response = await fetch("google.com")
+    const options = {
+      method: "GET",
+      mode: "no-cors",
+      headers: {
+        "Content-Type": "application/json",
+        // 'Content-Type': 'application/x-www-form-urlencoded',
+      },
+    };
+
+    let response = await fetch("https://131.159.209.218:5000/")
       .then(
         (response) => {
           return response;
@@ -35,30 +46,6 @@ export default function OurScreen({ navigation }) {
     return response;
   };
 
-  const [events, setEvents] = React.useState([
-    {
-      region: "Ammersee",
-      imageUri:
-        "https://www.marienplatz-muenchen.de/wp-content/uploads/2019/06/muenchen-englischer-garten-2863483_pix.jpg",
-      description:
-        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    },
-    {
-      region: "Starnbergersee",
-      imageUri:
-        "https://c8.alamy.com/comp/2ARN2H0/fire-icon-flame-icon-isolated-vector-illustration-2ARN2H0.jpg",
-      description:
-        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    },
-    {
-      region: "Munich",
-      imageUri:
-        "https://engineering.fb.com/wp-content/uploads/2016/04/yearinreview.jpg",
-      description:
-        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    },
-  ]);
-
   const onRefresh = React.useCallback(async () => {
     // Hint: Make api call here
     setRefreshing(true);
@@ -67,20 +54,24 @@ export default function OurScreen({ navigation }) {
 
   return (
     <SafeAreaView>
+      {/* <TextInput value={15} style={styles.input} /> */}
       <ScrollView
         refreshControl={
-          <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
+          <RefreshControl
+            placeholder="useless placeholder"
+            refreshing={refreshing}
+            onRefresh={onRefresh}
+          />
         }
       >
-        {console.log("tagggg")}
-        {events.map((event, index) => {
+        {times.map((time, index) => {
           return (
             <TouchableWithoutFeedback
               key={index}
               onPress={() => {
                 console.log("pressed");
                 return navigation.navigate(routes.EVENT_DETAILS, {
-                  event,
+                  time,
                 });
               }}
             >
@@ -88,20 +79,24 @@ export default function OurScreen({ navigation }) {
                 <Image
                   style={styles.image}
                   source={{
-                    uri: event.imageUri,
+                    uri: time.AttractionImageURL,
                   }}
                 />
                 <View style={styles.detailsContainer}>
                   <View style={styles.metaInformationContainer}>
                     <Text style={styles.metaInformation} numberOfLines={1}>
-                      {event.region}
+                      {time.AttractionName}
                     </Text>
                     <Text style={styles.metaInformation} numberOfLines={1}>
-                      {"3.8 km"}
+                      {time.WalkTimeSeconds
+                        ? `${Math.floor(
+                            Number(time.WalkTimeSeconds) / 60
+                          )} minutes`
+                        : `3 minutes`}
                     </Text>
                   </View>
                   <Text style={styles.description} numberOfLines={2}>
-                    {event.description}
+                    {time.AttractionDescription}
                   </Text>
                 </View>
               </View>
@@ -123,6 +118,7 @@ const styles = StyleSheet.create({
   },
   detailsContainer: {
     padding: 20,
+    paddingTop: 10,
     backgroundColor: "#ff5f00",
   },
   metaInformationContainer: {
@@ -142,5 +138,18 @@ const styles = StyleSheet.create({
   },
   description: {
     color: "#191919",
+  },
+  input: {
+    position: "absolute",
+    backgroundColor: "white",
+    opacity: 0.5,
+    marginTop: 30,
+    height: 40,
+    width: "40%",
+    marginLeft: "50%",
+    borderRadius: 2,
+    borderWidth: 1,
+    padding: 10,
+    zIndex: 10,
   },
 });
