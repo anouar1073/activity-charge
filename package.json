@@ -11,6 +11,7 @@
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
     "@expo/webpack-config": "^0.17.2",
+    "@miblanchard/react-native-slider": "^2.1.0",
     "@react-native-community/geolocation": "^3.0.3",
     "@react-navigation/bottom-tabs": "^6.4.0",
     "@react-navigation/stack": "^6.3.4",

@@ -46,6 +46,7 @@ export default function OurScreen({ navigation }) {
 
   const onRefresh = React.useCallback(async () => {
     // Hint: Make api call here
+    times.reverse();
     setRefreshing(true);
     await fetchData().then(() => setRefreshing(false));
   }, []);
