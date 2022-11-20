@@ -1,5 +1,5 @@
-import {useState} from "react";
 import {Ionicons} from '@expo/vector-icons';
+import { useState, useEffect } from "react";
 import {
     View,
     Image,
@@ -24,6 +24,37 @@ export default function EventDetails({route, navigation}) {
         latitudeDelta: 0.0922,
         longitudeDelta: 0.0421,
     });
+    const time = route.params.time;
+
+    const [attractionRegion, setAttractionRegion] = useState({
+        latitude: time.AttractionLocationLat,
+        longitude: time.AttractionLocationLng,
+        latitudeDelta: 0.0922,
+        longitudeDelta: 0.0421,
+    });
+
+    const [chargerRegion, setChargerRegion] = useState({
+        latitude: time.ChargerLocationLat,
+        longitude: time.ChargerLocationLng,
+        latitudeDelta: 0.0922,
+        longitudeDelta: 0.0421,
+    });
+
+    useEffect(() => {
+        setAttractionRegion({
+            latitude: time.AttractionLocationLat,
+            longitude: time.AttractionLocationLng,
+            latitudeDelta: 0.0922,
+            longitudeDelta: 0.0421,
+        });
+
+        setChargerRegion({
+            latitude: time.ChargerLocationLat,
+            longitude: time.ChargerLocationLng,
+            latitudeDelta: 0.0922,
+            longitudeDelta: 0.0421,
+        });
+    }, [time]);
 
     return (
         <View>
@@ -37,7 +68,7 @@ export default function EventDetails({route, navigation}) {
                     alignSelf: "flex-start", //for align to right
                 }}
             >
-                <TouchableOpacity style={styles.touchable} onPress={()=>navigation.goBack()}>
+                <TouchableOpacity style={styles.touchable} onPress={() => navigation.goBack()}>
                     <View onPress style={styles.backContainer}>
                         <Ionicons name="chevron-back-outline" size={40} color={"#ff5f00"}/>
                     </View>
@@ -62,6 +93,4 @@ const styles = StyleSheet.create({
         marginTop: 35,
         marginLeft: 15,
     },
-    touchable: {
-    }
 });
