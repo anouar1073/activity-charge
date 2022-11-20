@@ -49,7 +49,7 @@ export default function EventDetails({ route, navigation }) {
     <View>
       <MapView style={styles.map} region={attractionRegion}>
         <Marker coordinate={attractionRegion} title="Attraction" />
-        <Marker coordinate={chargerRegion} title="Charger" />
+        <Marker coordinate={chargerRegion} title="Charger" pinColor="blue" />
       </MapView>
       <View
         style={{
