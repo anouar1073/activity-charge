@@ -4,8 +4,6 @@ import requests
 
 def get_attractions(latitude: int, longitude: int):
     apiKey = "AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U"
-    latitude = "48.137154" 
-    longitude = "11.576124"
     location = latitude + "%2C" + longitude
 
     searchRadius = "50000" # in meters / max 50 000
@@ -25,21 +23,34 @@ def get_attractions(latitude: int, longitude: int):
     
     attractionList = []
     for dict in responseDict["results"]:
-        attraction = {
-            "AttractionName": dict["name"],
-            "AttractionLocationLat": dict["geometry"]["location"]["lat"],
-            "AttractionLocationLng": dict["geometry"]["location"]["lng"],
-            "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
-            "ChargerLocationLat": "10.000000",
-            "ChargerLocationLng": "10.000000",
-            "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=" + dict["photos"][0]["photo_reference"] + "&key=" + apiKey,
-            "place_id": dict["place_id"]
-            
-            # attractionImageURL
-            # proposedCharingTime
-            # chargePercentAfterCharing
-            # moneySavedFromDoNotGetPenalty  
-        }
+        if "photos" in dict:
+            attraction = {
+                "AttractionName": dict["name"],
+                "AttractionLocationLat": dict["geometry"]["location"]["lat"],
+                "AttractionLocationLng": dict["geometry"]["location"]["lng"],
+                "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
+                "ChargerLocationLat": "10.000000",
+                "ChargerLocationLng": "10.000000",
+                "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=" + dict["photos"][0]["photo_reference"] + "&key=" + apiKey,
+                "place_id": dict["place_id"]
+                
+                # attractionImageURL
+                # proposedCharingTime
+                # chargePercentAfterCharing
+                # moneySavedFromDoNotGetPenalty  
+            }
+        else:
+            attraction = {
+                "AttractionName": dict["name"],
+                "AttractionLocationLat": dict["geometry"]["location"]["lat"],
+                "AttractionLocationLng": dict["geometry"]["location"]["lng"],
+                "AttractionDescription": "Ein super Ort zum Laden und spass haben, hihi!!",
+                "ChargerLocationLat": "10.000000",
+                "ChargerLocationLng": "10.000000",
+                "AttractionImageURL": "No Image",
+                "place_id": dict["place_id"]
+            }
+
         attractionList.append(attraction)
 
     return attractionList
@@ -50,7 +61,7 @@ def getWalkTime(attractionList: list, chargingDict: dict):
     for k,v in chargingDict.items():
         final = []
         for idx,attraction in enumerate(attractionList):
-            print(v[0],v[1])
+            #print(v[0],v[1])
 
             attraction["ChargerLocationLat"] = v[0]
             attraction["ChargerLocationLng"] = v[1]
@@ -88,7 +99,7 @@ def getDescription(attractionList: list):
         response = requests.request("GET", url, headers=headers, data=payload)
         responseDict = json.loads(response.text)
 
-        print(responseDict["result"])
+        #print(responseDict["result"])
 
         if "editorial_summary" in responseDict["result"]:
             attraction["AttractionDescription"] = str(responseDict["result"]["editorial_summary"]["overview"])

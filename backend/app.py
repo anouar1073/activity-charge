@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, render_template, request
 import requests
 import json
 
@@ -9,8 +9,7 @@ app = Flask(__name__)
 
 # !!! Flask run im APP.py VERZEICHNIS AUSFÜHREN!!!!
 
-
-@app.route("/", methods=['GET']) # http://127.0.0.1:5000/?lat=48.137154&lng=11.576124
+@app.route("/api", methods=['GET']) # http://127.0.0.1:5000/api?lat=48.137154&lng=11.576124
 def postDataPara():
 
     ### How it Works: 
@@ -29,12 +28,26 @@ def postDataPara():
     
     return jsonify(attractionList)
 
-@app.route("/charger", methods=['GET']) # http://127.0.0.1:5000/?lat=48.137154&lng=11.576124
+@app.route("/charger", methods=['GET'])
 def getCharger():
     latitude = request.args.get('lat', default="48.137154")
     longitude = request.args.get('lng', default="11.576124")
     chargingDict = fetchChargingStationDetail(latitude,longitude)
     return chargingDict
+
+@app.route("/", methods=['GET']) # http://127.0.0.1:5000/?lat=48.137154&lng=11.576124
+def getDataPara():
+
+    latitude = request.args.get('lat', default="48.137154")
+    longitude = request.args.get('lng', default="11.576124")
+
+    attractionList = get_attractions(latitude=latitude, longitude=longitude)
+    chargingDict = fetchChargingStation(attractionList[2]["AttractionLocationLat"],attractionList[2]["AttractionLocationLng"],)
+    attractionList = getWalkTime(attractionList, chargingDict)
+    attractionList = getDescription(attractionList)
+    
+    return render_template("index.html", content1=attractionList)
+
 
 def fetchChargingStation(latitude: float, longitude: float):
     params = {"latitude": latitude, "longitude": longitude, "countrycode": "DE", 

@@ -58,15 +58,15 @@ export default function App() {
                 <Tab.Screen options={{
                     headerShown: false,
                     tabBarIcon: ({focused}) => (
-                        <Ionicons name="log-in-outline" color={focused ? "#ff5f00" : "#808080"} size={25}/>
+                        <Ionicons name="leaf-outline" color={focused ? "#ff5f00" : "#808080"} size={25}/>
                     ),
-                }} name="Login" component={SixtScreen}/>
+                }} unmountOnBlur={true} name="Activity" children={() => <EventNavigator/>}/>
                 <Tab.Screen options={{
                     headerShown: false,
                     tabBarIcon: ({focused}) => (
-                        <Ionicons name="flag-outline" color={focused ? "#ff5f00" : "#808080"} size={25}/>
+                        <Ionicons name="log-in-outline" color={focused ? "#ff5f00" : "#808080"} size={25}/>
                     ),
-                }} unmountOnBlur={true} name="Event" children={() => <EventNavigator/>}/>
+                }} name="Logout" component={SixtScreen}/>
             </Tab.Navigator>
         </NavigationContainer>
     );
