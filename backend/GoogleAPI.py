@@ -81,7 +81,8 @@ def getWalkTime(attractionList: list, chargingDict: dict):
             if(maxWalkTime > walkTime ):
                 attraction["WalkTimeSeconds"] = str(responseDict["routes"][0]["legs"][0]["duration"]["value"])
             else:
-                attractionList.remove(attraction)
+                #attractionList.remove(attraction)
+                pass
     
     return attractionList
 
