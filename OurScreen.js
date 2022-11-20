@@ -12,6 +12,7 @@ import {
 import { TouchableWithoutFeedback } from "react-native-gesture-handler";
 import routes from "./routes.js";
 import times from "./backend/tests/times.json";
+import { Slider } from "@miblanchard/react-native-slider";
 
 const wait = (timeout) => {
   return new Promise((resolve) => setTimeout(resolve, timeout));
@@ -19,13 +20,13 @@ const wait = (timeout) => {
 
 export default function OurScreen({ navigation }) {
   const [refreshing, setRefreshing] = React.useState(false);
+  const [sliderValue, setSliderValue] = React.useState(15);
   const fetchData = async () => {
     const options = {
       method: "GET",
       mode: "no-cors",
       headers: {
         "Content-Type": "application/json",
-        // 'Content-Type': 'application/x-www-form-urlencoded',
       },
     };
 
@@ -53,7 +54,6 @@ export default function OurScreen({ navigation }) {
 
   return (
     <SafeAreaView>
-      {/* <TextInput value={15} style={styles.input} /> */}
       <ScrollView
         refreshControl={
           <RefreshControl
@@ -65,6 +65,49 @@ export default function OurScreen({ navigation }) {
           />
         }
       >
+        <View
+          style={{
+            flex: 1,
+            flexDirection: "column",
+            justifyContent: "center",
+          }}
+        >
+          <View
+            style={{
+              flex: 1,
+              flexDirection: "column",
+              justifyContent: "center",
+              marginTop: 40,
+              marginBottom: 40,
+            }}
+          >
+            <Text
+              style={{
+                alignSelf: "center",
+                flex: 1,
+                color: "white",
+              }}
+            >
+              Radius
+            </Text>
+            <Slider
+              animateTransitions={true}
+              thumbStyle={{
+                backgroundColor: "#ff5f00",
+              }}
+              trackStyle={{
+                backgroundColor: "#ff5f00",
+              }}
+              style={{
+                alignSelf: "center",
+                padding: 40,
+                flex: 2,
+              }}
+              value={sliderValue}
+              onValueChange={(value) => setSliderValue(value)}
+            />
+          </View>
+        </View>
         {times.map((time, index) => {
           return (
             <TouchableWithoutFeedback
