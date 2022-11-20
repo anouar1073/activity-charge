@@ -2,11 +2,11 @@
     {
         "AttractionDescription": "Historic fountain depicting the god of the Rhine, built from 1897 to 1903 in scenic park surrounds.",
         "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AW30NDy9l18S7AGkhxGDalJD2j19zRGAz842fxL3JOLWfua-3KOqLqC9C7DvFImQTa-NKASK0IxVfEk6YEo-vegDsNFlmM1WOQ5iZhXPkSuW7NBGqs33AbuVpbgFDh1x3MI-KxS9PC8ggZiF5FUojOivVMngMqM1K3rHVbQ6zyUfUqDHivjy&key=AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U",
-        "AttractionLocationLat": 48.13237830000001,
+        "AttractionLocationLat": 48.1323781,
         "AttractionLocationLng": 11.5865944,
         "AttractionName": "Rhein-Brunnen Fountain",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
+        "ChargerLocationLat": 10.000000,
+        "ChargerLocationLng": 10.000000,
         "place_id": "ChIJby2NSX3fnUcRVjsX-NhguXY"
     },
     {
@@ -26,8 +26,8 @@
         "AttractionLocationLat": 48.1298707,
         "AttractionLocationLng": 11.5834522,
         "AttractionName": "Deutsches Museum",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
+        "ChargerLocationLat": 10.000000,
+        "ChargerLocationLng": 10.000000,
         "place_id": "ChIJ01CaE2PfnUcRUpb8Ylg-UXo"
     },
     {
@@ -69,14 +69,14 @@
         "AttractionLocationLat": 48.1466818,
         "AttractionLocationLng": 11.563985,
         "AttractionName": "Lenbachhaus",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
+        "ChargerLocationLat": 10.000000,
+        "ChargerLocationLng": 10.000000,
         "place_id": "ChIJD2wwR-V1nkcRCKM7kD249X8"
     },
     {
         "AttractionDescription": "Major art collection in a vast neoclassical building displaying about 900 paintings at any one time.",
         "AttractionImageURL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AW30NDyU3OmK4ixMOXACCqLktPVqrCZHfnfLi-mhDeGrwOtpyRtG6MyZDMPk__f6dW_vRyFb62EnOGKJzXYi4kIqBfwdrOHPyCJT-Es4UuBg9rQgTKgUiBkER2ONE0zhCPJhUVDU7MWWGCOdnA98_ZTKm7aaz8oouELTvCNHti3D92Fz1uE1&key=AIzaSyBYcHDCj5i_pP2M5s37MbiQRMHNdRyJy6U",
-        "AttractionLocationLat": 48.14829129999999,
+        "AttractionLocationLat": 48.1482912,
         "AttractionLocationLng": 11.5699847,
         "AttractionName": "Alte Pinakothek",
         "ChargerLocationLat": 48.14835,
@@ -90,8 +90,8 @@
         "AttractionLocationLat": 48.1373363,
         "AttractionLocationLng": 11.5761399,
         "AttractionName": "New Town Hall",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
+        "ChargerLocationLat": 10.000000,
+        "ChargerLocationLng": 10.000000,
         "place_id": "ChIJ_0T5Jot1nkcRZ3kV_GGLAFE"
     },
     {
@@ -100,8 +100,8 @@
         "AttractionLocationLat": 48.1351607,
         "AttractionLocationLng": 11.5696412,
         "AttractionName": "Asamkirche",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
+        "ChargerLocationLat": 10.000000,
+        "ChargerLocationLng": 10.000000,
         "place_id": "ChIJyaP7Y1_fnUcRQDvzvurW66U"
     },
     {
@@ -121,8 +121,8 @@
         "AttractionLocationLat": 48.1352911,
         "AttractionLocationLng": 11.5802132,
         "AttractionName": "Beer and Oktoberfest Museum",
-        "ChargerLocationLat": "10.000000",
-        "ChargerLocationLng": "10.000000",
+        "ChargerLocationLat": 10.000000,
+        "ChargerLocationLng": 10.000000,
         "place_id": "ChIJ-88eGYp1nkcRpm2C9-efi7g"
     },
     {
