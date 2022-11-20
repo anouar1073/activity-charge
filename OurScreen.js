@@ -20,7 +20,6 @@ const wait = (timeout) => {
 export default function OurScreen({ navigation }) {
   const [refreshing, setRefreshing] = React.useState(false);
   const fetchData = async () => {
-    console.log("fetching data...");
     const options = {
       method: "GET",
       mode: "no-cors",
@@ -42,7 +41,6 @@ export default function OurScreen({ navigation }) {
       .catch(
         (error) => error // Handle the error response object
       );
-    console.log(response);
     return response;
   };
 
@@ -58,6 +56,8 @@ export default function OurScreen({ navigation }) {
       <ScrollView
         refreshControl={
           <RefreshControl
+            colors={["#ff5f00"]}
+            tintColor={"#ff5f00"}
             placeholder="useless placeholder"
             refreshing={refreshing}
             onRefresh={onRefresh}
@@ -69,7 +69,6 @@ export default function OurScreen({ navigation }) {
             <TouchableWithoutFeedback
               key={index}
               onPress={() => {
-                console.log("pressed");
                 return navigation.navigate(routes.EVENT_DETAILS, {
                   time,
                 });
@@ -129,7 +128,6 @@ const styles = StyleSheet.create({
     marginBottom: 7,
     fontWeight: "bold",
     color: "#191919",
-    //fontFamily: "Menlo"
   },
   image: {
     width: "100%",
